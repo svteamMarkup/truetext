@@ -1,0 +1,1272 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"ti",
+				"tickets-view-correspondence-item"
+			],
+			[
+				"t",
+				"tickets-view-correspondence"
+			],
+			[
+				"tic",
+				"tickets-view-correspondence"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"border-lef",
+				"border-left-color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"tie",
+				"tickets-list-header"
+			],
+			[
+				"ru",
+				"rules-list-item"
+			],
+			[
+				"new",
+				"news-list-item"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"dp",
+				"dpOptns"
+			],
+			[
+				"date",
+				"datepicker"
+			],
+			[
+				"set",
+				"setVal"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"sav",
+				"save-filter"
+			],
+			[
+				"save",
+				"save-filter__button"
+			],
+			[
+				"filter",
+				"filter__title"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"per",
+				"performer-success"
+			],
+			[
+				"js",
+				"jsChangeAccItemToggle"
+			],
+			[
+				"form",
+				"form-radio"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"sele",
+				"selected-performer-card-contacts"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"order",
+				"order-comments-answer"
+			],
+			[
+				"fno",
+				"font-size"
+			],
+			[
+				"car",
+				"card-order-row"
+			],
+			[
+				"card",
+				"card-order-row"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"Prox",
+				"ProximaNova-Regular"
+			],
+			[
+				"user",
+				"user-settings-notifications"
+			],
+			[
+				"moda",
+				"modal__text"
+			],
+			[
+				"_",
+				"_fourth"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"use",
+				"user-settings-personal"
+			],
+			[
+				"tabs",
+				"tabs-control"
+			],
+			[
+				"acc",
+				"account-success-item"
+			],
+			[
+				"ac",
+				"account-success-item"
+			],
+			[
+				"card-fini",
+				"card-finished"
+			],
+			[
+				"cus",
+				"customer-card-not-selected"
+			],
+			[
+				"full",
+				"fullcardControl"
+			],
+			[
+				"inde",
+				"indexTab"
+			],
+			[
+				"modal",
+				"modal-order"
+			],
+			[
+				"emp",
+				"empty-orders-notification"
+			],
+			[
+				"orde",
+				"orders-tabs"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"push",
+				"push-notifications-dropdown-control"
+			],
+			[
+				"pu",
+				"push-notifications-dropdown-control"
+			],
+			[
+				"p",
+				"push-notifications-dropdown"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"lo",
+				"logined-dropdown"
+			],
+			[
+				"li",
+				"logined"
+			],
+			[
+				"login",
+				"logined"
+			],
+			[
+				"log",
+				"logined-user"
+			],
+			[
+				"head",
+				"headerControl"
+			],
+			[
+				"us",
+				"userboard-modal"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"card-lo",
+				"card-login-info"
+			],
+			[
+				"foo",
+				"footer-social"
+			],
+			[
+				"maign",
+				"margin-bottom"
+			],
+			[
+				"Pr",
+				"ProximaNova-Regular"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"Pro",
+				"ProximaNova-Regular"
+			],
+			[
+				"cur",
+				"customer-card-confirm"
+			],
+			[
+				"ra",
+				"rating__item"
+			],
+			[
+				"ca",
+				"card-map"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"sor",
+				"sort-select"
+			],
+			[
+				"so",
+				"sort-select"
+			],
+			[
+				"item",
+				"item1"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"top",
+				"top-baner"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"p4",
+				"p404__image"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"Ca",
+				"Calibri-Bold"
+			],
+			[
+				"top-",
+				"top-menu"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"after",
+				"page-break-after"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"Robo",
+				"Roboto-Medium"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"he",
+				"header-contact"
+			],
+			[
+				"hea",
+				"header-contact"
+			],
+			[
+				"fn",
+				"font-size"
+			],
+			[
+				"h",
+				"header-language"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
+				"fom",
+				"form__element"
+			],
+			[
+				"blog-c",
+				"blog-content-reviews-item"
+			],
+			[
+				"blog-",
+				"blog-content-reviews"
+			],
+			[
+				"pro",
+				"proofs-content-item"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ph",
+				"photorgrapher-content-item__link"
+			],
+			[
+				"po",
+				"portfolio-content"
+			],
+			[
+				"fo",
+				"footer__item"
+			],
+			[
+				"mrign",
+				"margin-top"
+			],
+			[
+				"bl",
+				"blocks-bottom-item__link"
+			],
+			[
+				"blo",
+				"blocks-bottom-item"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"mag",
+				"margin-bottom"
+			],
+			[
+				"las",
+				"last-articles-item"
+			],
+			[
+				"la",
+				"last-articles-item"
+			],
+			[
+				"pop",
+				"popular-articles-item"
+			],
+			[
+				"штука",
+				"штукатурка"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"top-me",
+				"top-menu__item"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"spa",
+				"spares-content-links"
+			],
+			[
+				"s",
+				"spares-content-links"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "markup/pages/user-tickets-view.jade",
+			"settings":
+			{
+				"buffer_size": 81,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/tickets-view/tickets-view.jade",
+			"settings":
+			{
+				"buffer_size": 3103,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/tickets-view/tickets-view.scss",
+			"settings":
+			{
+				"buffer_size": 1143,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/static/scss/GUI.scss",
+			"settings":
+			{
+				"buffer_size": 2257,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"new",
+				"Tasks: New"
+			],
+			[
+				":",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 526.0,
+		"history":
+		[
+			"cd e:/git/svadbavo-2015/",
+			"update",
+			"export LC_NUMERIC=C",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"view.settings().get('syntax')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/extiser/git/SVTEAM/truetext/markup",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/head/data",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/header",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-list",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages",
+		"/Users/extiser/git/SVTEAM/truetext/markup/static",
+		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss"
+	],
+	"file_history":
+	[
+		"/Users/extiser/MAMP/qatar-quto/index.php",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-list/tickets-list.js",
+		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/normalize.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/vars.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/layout.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-list/tickets-list.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-list/tickets-list.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/header/header.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-rules.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-tickets.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/rules-list/rules-list.js",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/rules-list/rules-list.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/rules-list/rules-list.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/news-list/news-list.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-news.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/footer/footer.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/footer/footer.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/common.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/news-list/news-list.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/header/header.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/logined/logined.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/logined/logined.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/SVTEAM/sovets-2017/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/index.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/default_component_scheme.json",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/head/data/data.js",
+		"/Users/extiser/temp/infinity_200/result/index.php",
+		"/Users/extiser/temp/infinity_200/result/result.php",
+		"/Users/extiser/temp/infinity_200/map.php",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-dropzone/dropzone.js",
+		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-dropzone/dropzone.scss",
+		"/Users/extiser/git/1studio/netexar/tars-config.js",
+		"/Users/extiser/git/1studio/netexar/markup/components/modals/modals.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-datepicker/datepicker.js",
+		"/Users/extiser/git/1studio/netexar/markup/components/performer-success/performer-success.jade",
+		"/Users/extiser/git/1studio/netexar/markup/pages/layout.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/userboard/userboard.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/performer-my/performer-my.scss",
+		"/Users/extiser/git/1studio/netexar/markup/pages/personal-performer-my.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/performer-my/performer-my.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/header/header.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/filter/filter.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/filter/filter.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/card/card-full.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/card/card.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/card/card.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/list-orders/list-orders.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/tabs/tabs-control.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/filter/filter.js",
+		"/Users/extiser/git/1studio/netexar/markup/components/filter/orders-filter.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/filter/time-filter.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/list-orders/list-orders.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/orders-filter/orders-filter.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/orders-filter/orders-filter.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/time-filter/time-filter.scss",
+		"/Users/extiser/git/1studio/netexar/markup/pages/personal-performer-list-orders.jade",
+		"/Users/extiser/git/1studio/netexar/markup/pages/personal-customer-list-orders.jade",
+		"/Users/extiser/git/1studio/netexar/markup/pages/personal-performer-driver.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/performer-success/performer-success.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/modals/modals.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/modals/modal-passport.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/performer-success/performer-success.js",
+		"/Users/extiser/git/1studio/netexar/markup/components/performer-passport-form/performer-passport-form.jade",
+		"/Users/extiser/git/1studio/netexar/markup/pages/performer-registration.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form-radio.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/jsExtraRadio.js",
+		"/Users/extiser/git/1studio/netexar/markup/components/order-attention/order-attention.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/order-attention/order-attention.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/order-attention/order-attention.js",
+		"/Users/extiser/git/1studio/netexar/markup/components/order-page-content/order-page-content.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/order-comments/order-comments.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/selected-performer/selected-performer.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/selected-performer/selected-performer.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/order-comments/order-comments.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/order-page-content/order-page-content.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/card-order/card-order.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/order-customer/order-customer-success.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/order-customer/order-customer.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/order-customer/order-customer.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/account-success/account-success.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/account-success/account-success.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/card-order/card-order.jade",
+		"/Users/extiser/git/1studio/netexar/markup/pages/order-page.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/empty-orders/empty-orders.jade",
+		"/Users/extiser/git/1studio/netexar/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings-notifications.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form-attachment.scss",
+		"/Users/extiser/git/1studio/netexar/markup/pages/personal-customer-settings.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/modals/modal-thanks.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/modals/modals.js",
+		"/Users/extiser/git/1studio/netexar/markup/components/customer-settings/customer-settings.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings-personal.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/modals/modal-order.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/customer-settings/customer-settings-personal.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/customer-settings/customer-settings.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings-photo.scss",
+		"/Users/extiser/git/1studio/netexar/markup/pages/personal-cutomer-settings.jade",
+		"/Users/extiser/git/1studio/netexar/markup/pages/personal-cutomer-list-orders.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/tabs/tabs-content.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/card/card.js",
+		"/Users/extiser/git/1studio/netexar/markup/components/rating/rating.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/rating/rating.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/tabs/tabs.js",
+		"/Users/extiser/git/1studio/netexar/markup/components/main-list/main-list.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/tabs/tabs-contents.scs",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/jsExtraCheck.js",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form-checkbox.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/push-notifications/push-notifications.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form-select.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form-group.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form.scss",
+		"/Users/extiser/git/1studio/netexar/markup/pages/personal-cutomer-empty-orders.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-datepicker/_datepicker-config.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/dateSelect.js",
+		"/Users/extiser/git/1studio/netexar/node_modules/air-datepicker/dist/css/datepicker.css",
+		"/Users/extiser/git/1studio/netexar/node_modules/air-datepicker/src/sass/timepicker.scss",
+		"/Users/extiser/git/1studio/netexar/node_modules/air-datepicker/src/sass/_datepicker-config.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/push-notifications/push-notifications.jade",
+		"/Users/extiser/git/1studio/netexar/markup/components/push-notifications/push-notifications.js",
+		"/Users/extiser/git/1studio/netexar/markup/static/scss/common.scss",
+		"/Users/extiser/git/1studio/netexar/markup/components/footer/footer.scss"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 202.0,
+		"where_history":
+		[
+			"/Users/extiser/git/1studio/netexar/markup/components",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"textarea",
+			"focus",
+			"CustomFont",
+			"Custom-Font",
+			"CustomFont",
+			".dropzone",
+			"performer-passport-form",
+			"extra",
+			"checkbox",
+			"checkbxo",
+			"passport",
+			"name",
+			"inside",
+			"map",
+			"card-info",
+			"customer-card",
+			"border",
+			"hint",
+			"half",
+			".modal-order-column._address",
+			"date",
+			"вфвеу",
+			"check",
+			"input",
+			"Raleway-Regular",
+			"tree",
+			"http://ozone.uz:8888",
+			"@media screen and (max-width: 960px) {",
+			"300px",
+			"cosmetology",
+			"pharmacology",
+			"fitness",
+			"diet",
+			"Cambria-Regular",
+			"\n\t\t\t\t.product-characteristics-item__dots",
+			".top-menu",
+			"PTSans-Regular",
+			"PTSans-Italic",
+			"Roboto-Italic",
+			"PTSans-Bold",
+			"PTSans-Regular",
+			"PTSans-Italic",
+			"PTSans-Bold",
+			"-q-c-",
+			"submit",
+			"input",
+			"li -",
+			"em",
+			".jpg",
+			"http://extiser.github.io/amkodor/builds//",
+			".structure-content-item",
+			".product-list-content-sidebar-category",
+			"li",
+			"</li>",
+			"\t\t\t<li>",
+			"https",
+			"</p>",
+			"\t\t\t<p>",
+			"@media screen and (max-width: 768px) {",
+			"@media screen and (max-width: 480px) {",
+			";\n",
+			"h1",
+			"Custom-Font",
+			"}",
+			"ico",
+			".hide-mobile",
+			"h1",
+			"1",
+			"ul",
+			".hide",
+			"#SkypeButton_Call_vageik_1",
+			"__block",
+			"row",
+			".row",
+			"unisans",
+			".small-article",
+			"a(href=\"#\" ",
+			"ul",
+			"search",
+			"onThumbnailsClick",
+			"pswp",
+			"pswp__item",
+			"openPhotoSwipe",
+			"Thumbnail",
+			"parse",
+			"parseThumbnailElements",
+			".col-lg-11.col-xs-12.col-md-12",
+			".col-lg-1.hidden-xs",
+			".col-lg-1.hidden-xs.hidden-md",
+			".col-lg-11.col-lg-offset-1.col-xs-12.col-md-12",
+			".col-xs-12",
+			".col-md",
+			".col-xs-12",
+			".visible-xs-block.visible-md-block",
+			".visible-xs-block",
+			".title",
+			"8",
+			"send",
+			"$blue",
+			"-webkit-margin-before: 1em;",
+			"HelveticaNeueCyrBold",
+			"../static/images/",
+			"&--individualcreate",
+			"&--momentglory",
+			"&--threecolors",
+			"&--theone",
+			"&--bigdisplay",
+			"../images/",
+			".art-menu",
+			".art-menu ul li",
+			"parent",
+			"paren",
+			"content-row-l",
+			"content-row-f",
+			"content-row2",
+			"content-row1",
+			".art-menu a",
+			"\"",
+			"$",
+			"slides",
+			"'",
+			"brow",
+			"localhost",
+			"art-postheader",
+			"jquery",
+			"migrate",
+			"jquery",
+			".show_me_the_map"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Lato-Italic",
+			"Lato-Bold",
+			"Lato-Regular",
+			".modal-order-column._half",
+			"ProximaNova-Regular",
+			"http://ozone.uz",
+			"@media screen and (max-width: 1024px) {",
+			"",
+			"Calibri-Regular",
+			"",
+			".main-menu",
+			"Roboto-Medium",
+			"Roboto-Light",
+			"Roboto-Italic",
+			"Roboto-Bold",
+			"AvenirNextLTPro-Regular",
+			"AvenirNextLTPro-It",
+			"AvenirNextLTPro-Bold",
+			"-q-g-",
+			"li",
+			".png",
+			"http://extiser.github.io/amkodor/builds/",
+			"a(href=\"#\" title=\"\").structure-content-item",
+			".product-list-content-sidebar-menu",
+			"li.composition-content-ul__item",
+			"",
+			"li ",
+			"http",
+			"",
+			"p ",
+			"p",
+			"@media screen and (max-width: 800px) {",
+			"@media screen and (max-width: 768px) {",
+			"Lato-Thin",
+			"Lato-Regular",
+			"Lato-Medium",
+			"Lato-Light",
+			"Lato-Heavy",
+			"Lato-Hairline",
+			"Lato-Black",
+			"Lato-Bold",
+			"}",
+			"",
+			"#SkypeButton_Call_redvoronik_1",
+			"__item",
+			"../fonts/unisans",
+			".similar-article",
+			"li.sidebar-nav__item\n\t\t\t\ta(href=\"#\" ",
+			".col-xs-12.col-md-12.col-lg-11",
+			".hidden-xs.col-lg-1",
+			".hidden-xs.hidden-md.col-lg-1",
+			".col-xs-12.col-md-12.col-lg-11.col-lg-offset-1",
+			".col-xs-12.col-md-12",
+			".col-lg",
+			"",
+			".visible-xs-block.visible-md-block",
+			".title.visible-xs-block",
+			"#70cfea",
+			"angular",
+			"SegoeUILight",
+			"../images/",
+			"&--individualCreate",
+			"&--momentGlory",
+			"&--threeColors",
+			"&--theOne",
+			"&--bigDisplay",
+			"../static/images/",
+			"contentRowL",
+			"contentRowF",
+			"content-row-l",
+			"content-row-f",
+			"'",
+			"jQuery",
+			"slider",
+			"\"",
+			"uslugi",
+			"/images",
+			"CalendarByWeek",
+			"www.acccentre.ru",
+			"acccentre.ru",
+			"firm-card-tabs-video-album",
+			"acccentre.iqdemo.ru",
+			"javascript:void(0)",
+			".slide__content__title",
+			"",
+			"/images/",
+			"water",
+			"cr_stone_kg",
+			"cr_stone_m",
+			"sand_m",
+			"sand_kg",
+			"sand_m",
+			"cement",
+			"bags",
+			"plaster_kg",
+			"bags",
+			"plaster_kg",
+			"",
+			"option",
+			"",
+			".pagination__item",
+			"order-by",
+			"/images/",
+			"../images/sprite.png",
+			"/images",
+			"/",
+			"/images",
+			"/images/",
+			"",
+			"../images",
+			"",
+			"b-why-you-need",
+			"b-in-photo",
+			"b-why",
+			"03dbaf",
+			"01a987",
+			"03bd97",
+			"<button type=\"button\" class=\"btn btn-success save_redact\">Сохранить</button>\n\t\t\t\t\t            \t<button type=\"button\" class=\"btn btn-default cancel_redact\">Отменить</button>",
+			"<button type=\"button\" class=\"btn btn-success save_redact\">Сохранить</button>\n<button type=\"button\" class=\"btn btn-default cancel_redact\">Отменить</button>",
+			"col-xs",
+			"",
+			"class=\"save_redact\"",
+			"class=\"redacting\"",
+			"rows=\"5\"",
+			"parking",
+			"option",
+			"",
+			"</p>"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "markup/pages/user-tickets-view.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								69
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/components/tickets-view/tickets-view.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2782,
+								2749
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 853.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "markup/components/tickets-view/tickets-view.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1137,
+								1137
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1289.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "markup/static/scss/GUI.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2257
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 70.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "truetext.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 323.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

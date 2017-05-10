@@ -1,0 +1,26 @@
+doctype html
+html(class="no-js", lang="ru")
+
+  include ../components/head/head
+  include ../components/header/header
+  include ../components/menu/menu
+  include ../components/logined/logined
+  include ../components/news-list/news-list
+  include ../components/rules-list/rules-list
+  include ../components/tickets-list/tickets-list
+  include ../components/tickets-view/tickets-view
+  include ../components/footer/footer
+
+  head
+    +head(head.defaults)
+  body
+    block header
+      h1 Header place
+    .content
+      block content
+        h1 Content place
+    block footer
+      +footer
+
+    script(src='%=static=%js/separate-js/jquery.min.js')
+    script(src='%=static=%js/main%=hash=%%=min=%.js')

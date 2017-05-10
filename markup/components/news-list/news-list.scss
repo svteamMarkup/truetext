@@ -1,0 +1,38 @@
+.news-list {
+  @extend .wrapper;
+}
+
+.news-list-item {
+  position: relative;
+
+  margin-bottom: 20px;
+  padding: 22px 40px;
+
+  border-left: 2px solid $mako;
+
+  @extend .white-plask;
+  &._new {
+    border-left: 2px solid $green;
+  }
+  &__title {
+    font-family: 'Lato-Bold';
+    font-size: 16px;
+
+    margin-bottom: 10px;
+  }
+  &__date {
+    font-size: 14px;
+
+    position: absolute;
+    top: 22px;
+    right: 40px;
+
+    color: rgba(#333, .5);
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 20px;
+
+    max-width: 85%;
+  }
+}

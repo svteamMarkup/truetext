@@ -1,0 +1,11 @@
+mixin top-main(data)
+  .top-main
+    .top-main-header
+      a(href="#" title="").top-main-header__logo truetext
+      a(href="#" title="" data-modal="#modal-enter").top-main-header__login Войти
+      +modal-enter
+
+    .top-main-center
+      .top-main-center__title Постоянная работа для
+        span копирайтеров
+      a(href="#" title="" data-modal="#modal-registration").top-main-center__button зарегистрироваться

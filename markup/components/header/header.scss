@@ -1,0 +1,17 @@
+.header {
+  margin-bottom: 30px;
+
+  background-color: $shuttle-gray;
+  &__wrapper {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    @extend .wrapper;
+  }
+  &__logo {
+    text-indent: -9999px;
+
+    @include bg($logo);
+  }
+}

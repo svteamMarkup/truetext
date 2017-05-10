@@ -1,0 +1,48 @@
+mixin tickets-view(data)
+  .tickets-view
+    h1 Тикеты
+    a(href="#" title="").button._green._create Создать тикет
+
+    table.table
+      thead
+        tr
+          th Отправитель
+          th Сообщение
+      tbody
+        tr
+          td
+            .tickets-view-author
+              .tickets-view-author__name Администратор
+              .tickets-view-author__date 10.05.2017 15:30
+
+          td
+            .tickets-view-correspondence
+              .tickets-view-correspondence__header Тема:
+                span Досрочные выплаты
+
+              .tickets-view-correspondence__list.jsScrollDown
+                - for (var i = 0; i < 15; i++)
+                  .tickets-view-correspondence-item
+                    .tickets-view-correspondence-item-header
+                      .tickets-view-correspondence-item-header__name._admin Администратор
+                      .tickets-view-correspondence-item-header__date 10.05.2017 15:30
+                    .tickets-view-correspondence-item__message Как и обещали на форуме, сегодня получили небольшую часть средств через более быстрый, но дорогой канал обмена на WMZ (с логинов никакой комиссий дополнительной не удерживали). Всем кто запрашивал досрочные выплаты отправил уже средства в зависимости от балансов логинов от 25% до 100% от всего заработка. Надеемся на Ваше понимание.
+
+                  .tickets-view-correspondence-item
+                    .tickets-view-correspondence-item-header
+                      .tickets-view-correspondence-item-header__name._user Светлана Перова
+                      .tickets-view-correspondence-item-header__date 10.05.2017 15:30
+                    .tickets-view-correspondence-item__message Как и обещали на форуме, сегодня получили небольшую часть средств через более быстрый, но дорогой канал обмена на WMZ (с логинов никакой комиссий дополнительной не удерживали). Всем кто запрашивал досрочные выплаты отправил уже средства в зависимости от балансов логинов от 25% до 100% от всего заработка. Надеемся на Ваше понимание.
+
+                  .tickets-view-correspondence-item
+                    .tickets-view-correspondence-item-header
+                      .tickets-view-correspondence-item-header__name._user Светлана Перова
+                      .tickets-view-correspondence-item-header__date 10.05.2017 15:30
+                    .tickets-view-correspondence-item__message Как и обещали на форуме, сегодня получили небольшую часть средств через более быстрый, но дорогой канал обмена на WMZ (с логинов никакой комиссий дополнительной не удерживали). Всем кто запрашивал досрочные выплаты отправил уже средства в зависимости от балансов логинов от 25% до 100% от всего заработка. Надеемся на Ваше понимание.
+
+              form(method="" action="").tickets-view-correspondence-form
+                textarea(rows="5").form-field._textarea
+                .tickets-view-correspondence-form__group
+                  button(type="submit").button._blue._send Отправить
+                  button(type="submit").button._blue._close Закрыть
+                  button(type="submit").button._blue._delete Удалить 

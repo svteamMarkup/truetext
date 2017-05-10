@@ -1,0 +1,50 @@
+.rules-list {
+  @extend .wrapper;
+}
+
+.rules-list-item {
+  position: relative;
+
+  margin-bottom: 20px;
+  padding: 15px 40px;
+
+  @extend .white-plask;
+  &:hover {
+    cursor: pointer;
+  }
+  &:before {
+    font-size: 18px;
+
+    position: absolute;
+    top: 17px;
+    left: 15px;
+
+    color: $green;
+
+    @extend .fa;
+    @extend .fa-question-circle-o;
+  }
+  &._active {
+    .rules-list-item__title {
+      color: $mako;
+      border-bottom: 1px solid transparent;
+    }
+  }
+  &__title {
+    font-family: 'Lato-Bold';
+    font-size: 16px;
+
+    display: inline-block;
+
+    color: $blue;
+    border-bottom: 1px dashed $blue;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 23px;
+
+    display: none;
+
+    margin-top: 10px;
+  }
+}

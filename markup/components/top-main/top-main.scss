@@ -1,0 +1,101 @@
+.top-main {
+  position: relative;
+
+  min-height: 690px;
+
+  background: url(%=static=%content/bg-main.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.top-main-header {
+  position: relative;
+
+  padding: 25px 0;
+
+  @extend .wrapper;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    text-indent: -9999px;
+
+    @include bg($logo-main);
+  }
+  &__login {
+    font-size: 12px;
+    line-height: 32px;
+
+    position: relative;
+
+    display: block;
+
+    box-sizing: border-box;
+    width: 94px;
+    height: 35px;
+    padding-left: 34px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+    border: 1px solid #fff;
+    &:before {
+      position: absolute;
+      top: 10px;
+      left: 15px;
+
+      color: #7bc22c;
+
+      @extend .fa;
+      @extend .fa-power-off;
+    }
+    &:hover {
+      color: #7bc22c;
+      background-color: #fff;
+    }
+  }
+}
+
+.top-main-center {
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+  left: 0;
+
+  width: 770px;
+  margin: auto;
+  padding-top: 50px;
+
+  border: 2px solid rgba(#fff, .5);
+  &__title {
+    font-size: 43px;
+
+    text-align: center;
+
+    color: #fff;
+    span {
+      font-size: 82px;
+
+      display: block;
+
+      text-transform: uppercase;
+    }
+  }
+  &__button {
+    line-height: 62px;
+
+    display: block;
+
+    width: 330px;
+    height: 62px;
+    margin: 40px auto 80px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+    background-color: #00b9f7;
+    &:hover {
+      background-color: #00b9f7 + #111;
+    }
+  }
+}

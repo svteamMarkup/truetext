@@ -1,0 +1,35 @@
+mixin tickets-list(data)
+  .tickets-list
+    h1 Тикеты
+
+    a(href="#" title="").button._green._create Создать тикет
+
+    .tickets-list-header
+      .tickets-list-header__date Дата
+      .tickets-list-header__theme Тема обращения
+      .tickets-list-header__status Статус
+      .tickets-list-header__control Управление
+
+    .tickets-list-item._new
+      .tickets-list-item__date 10.05.2017 15:30
+      a(href="#" title="").tickets-list-item__title Не получаеться добавить ссылку в статью
+      .tickets-list-item__status Новый
+      .tickets-list-item__control
+        a(href="#" title="").button._blue._answer ответить
+        a(href="#" title="").button._blue._drop
+
+    .tickets-list-item._readed
+      .tickets-list-item__date 10.05.2017 15:30
+      a(href="#" title="").tickets-list-item__title Не получаеться добавить ссылку в статью
+      .tickets-list-item__status Прочитан
+      .tickets-list-item__control
+        a(href="#" title="").button._blue._answer ответить
+        a(href="#" title="").button._blue._drop
+
+    .tickets-list-item._closed
+      .tickets-list-item__date 10.05.2017 15:30
+      a(href="#" title="").tickets-list-item__title Не получаеться добавить ссылку в статью
+      .tickets-list-item__status Закрыт
+      .tickets-list-item__control
+        a(href="#" title="").button._blue._answer ответить
+        a(href="#" title="").button._blue._drop

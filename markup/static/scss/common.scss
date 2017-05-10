@@ -1,0 +1,14 @@
+// Common styles of the project
+
+html,
+body {
+  font-family: 'Lato-Regular';
+
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+
+  color: $mako;
+  background-color: $light-gray;
+}

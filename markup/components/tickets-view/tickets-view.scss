@@ -1,0 +1,90 @@
+.tickets-view {
+  @extend .wrapper;
+}
+
+.tickets-view-author {
+  padding-top: 15px;
+  padding-right: 40px;
+  &__name {
+    font-family: 'Lato-Bold';
+
+    color: $blue;
+  }
+  &__date {
+    font-size: 11px;
+
+    padding-top: 5px;
+  }
+}
+
+.tickets-view-correspondence {
+  padding-top: 17px;
+  &__header {
+    font-family: 'Lato-Bold';
+    font-size: 14px;
+
+    padding-bottom: 15px;
+
+    text-transform: uppercase;
+
+    border-bottom: 1px solid #aaafb6;
+    span {
+      font-size: 16px;
+
+      padding-left: 40px;
+
+      text-transform: none;
+    }
+  }
+  &__list {
+    overflow-y: scroll;
+
+    height: 400px;
+  }
+}
+
+.tickets-view-correspondence-item {
+  padding-top: 25px;
+  padding-right: 15px;
+  &__message {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+.tickets-view-correspondence-item-header {
+  display: flex;
+
+  margin-bottom: 15px;
+
+  justify-content: space-between;
+  align-items: center;
+  &__name {
+    font-family: 'Lato-Bold';
+    font-size: 16px;
+    &._admin {
+      color: $blue;
+    }
+    &._user {
+      color: $green;
+    }
+  }
+  &__date {
+    font-size: 12px;
+  }
+}
+
+.tickets-view-correspondence-form {
+  margin-top: 35px;
+  &__group {
+    display: flex;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    justify-content: flex-end;
+    .button {
+      margin-left: 15px;
+    }
+  }
+}
