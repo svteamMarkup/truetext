@@ -2,6 +2,9 @@
   margin-bottom: 30px;
 
   background-color: $shuttle-gray;
+  &._submenu {
+    margin-bottom: 0;
+  }
   &__wrapper {
     display: flex;
 

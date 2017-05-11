@@ -1,0 +1,50 @@
+mixin finance(data)
+  .finance
+    h1 Финансы
+    .finance__wrapper
+      .finance-balance
+        .finance-balance__left
+          .finance-balance__title Ваш баланс:
+            span 14 050 Р
+        .finance-balance__right
+          a(href="#" title="").button._balance Заказать выплату
+
+      .finance-history
+        .finance-history__title История операций
+
+        table.table
+          thead
+            tr
+              th Дата
+              th Тип операции
+              th Сумма
+              th Описание
+          tbody
+            tr
+              td 10.05.2017 15:30
+              td 
+                span.green Зачисление
+              td 
+                span.bold 564Р
+              td Оплата статьи: “Расчёт сечения провода по потребляемой мощности”
+            tr
+              td 10.05.2017 15:30
+              td 
+                span.green Зачисление
+              td 
+                span.bold 564Р
+              td Оплата статьи: “Расчёт сечения провода по потребляемой мощности”
+            tr
+              td 10.05.2017 15:30
+              td 
+                span.blue Зачисление
+              td 
+                span.bold 4700Р
+              td Плановая выплата
+            tr
+              td 10.05.2017 15:30
+              td 
+                span.blue Вывод
+              td 
+                span.bold 5640Р
+              td Досрочная выплата

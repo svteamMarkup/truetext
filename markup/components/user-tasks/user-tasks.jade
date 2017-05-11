@@ -1,0 +1,271 @@
+mixin user-tasks-themes(data)
+  .user-tasks-themes
+    .user-tasks-themes__title ТЕматики
+
+    a(href="#" title="").user-tasks-themes__item 
+      span Советы 
+    a(href="#" title="").user-tasks-themes__item 
+      span Свадьба
+    a(href="#" title="").user-tasks-themes__item 
+      span Мода
+    a(href="#" title="").user-tasks-themes__item 
+      span Врач 
+    a(href="#" title="").user-tasks-themes__item 
+      span Диета 
+    a(href="#" title="").user-tasks-themes__item 
+      span Волосы
+    a(href="#" title="").user-tasks-themes__item 
+      span Подарки 
+    a(href="#" title="").user-tasks-themes__item 
+      span Стоматология
+    a(href="#" title="").user-tasks-themes__item 
+      span Отопление 
+    a(href="#" title="").user-tasks-themes__item 
+      span Фасад
+    a(href="#" title="").user-tasks-themes__item 
+      span Ремонт
+    a(href="#" title="").user-tasks-themes__item 
+      span Финансы
+
+mixin user-tasks-available(data)
+  .user-tasks
+    .user-tasks__left
+      +user-tasks-themes
+
+    .user-tasks__right
+      table.user-tasks-table._available
+        thead
+          tr
+            th(align="left") Тема статьи
+            th(align="center") Тематика
+            th(align="center") Кол-во символов
+            th(align="center") Стоимость
+            th
+            th
+        tbody
+          tr
+            td
+              a(href="#" title="") Акт освидетельствования геодезической разбивочной основы
+            td(align="center")
+              span.bold Стоматология
+            td(align="center")
+              span.bold 8500 - 9500
+            td(align="center")
+              span.bold 664Р
+            td
+              a(href="#" title="" data-modal="#modal-take-task").button._blue._view Смотреть
+            td
+              a(href="#" title="").button._green._take Взять
+          tr
+            td
+              a(href="#" title="") Чертежи клетки для кур несушек своими руками
+            td(align="center")
+              span.bold Стоматология
+            td(align="center")
+              span.bold 8500 - 9500
+            td(align="center")
+              span.bold 664Р
+            td
+              a(href="#" title="").button._blue._view Смотреть
+            td
+              a(href="#" title="").button._green._take Взять
+          tr
+            td
+              a(href="#" title="") Температура плавления металлов таблица
+            td(align="center")
+              span.bold Стоматология
+            td(align="center")
+              span.bold 8500 - 9500
+            td(align="center")
+              span.bold 664Р
+            td
+              a(href="#" title="").button._blue._view Смотреть
+            td
+              a(href="#" title="").button._green._take Взять
+          tr
+            td
+              a(href="#" title="") Токарный станок 1к62 технические характеристики
+            td(align="center")
+              span.bold Стоматология
+            td(align="center")
+              span.bold 8500 - 9500
+            td(align="center")
+              span.bold 664Р
+            td
+              a(href="#" title="").button._blue._view Смотреть
+            td
+              a(href="#" title="").button._green._take Взять
+
+mixin user-tasks-underway(data)
+  .user-tasks
+    .user-tasks__left
+      +user-tasks-themes
+
+    .user-tasks__right
+      table.user-tasks-table._underway
+        thead
+          tr
+            th(align="left") Тема статьи
+            th(align="center") Кол-во символов
+            th(align="center") Стоимость
+            th(align="center") Срок сдачи
+            th
+        tbody
+          tr
+            td
+              a(href="#" title="") Акт освидетельствования геодезической разбивочной основы
+            td(align="center")
+              span.bold 8500 - 9500
+            td(align="center")
+              span.bold 664Р
+            td(align="center")
+              span.red 1.05.2017 15:03
+            td
+              a(href="#" title="").button._green._view Открыть
+          
+          tr
+            td
+              a(href="#" title="") Акт освидетельствования геодезической разбивочной основы
+            td(align="center")
+              span.bold 8500 - 9500
+            td(align="center")
+              span.bold 664Р
+            td(align="center")
+              span.red 1.05.2017 15:03
+            td
+              a(href="#" title="").button._green._view Открыть
+
+          tr
+            td
+              a(href="#" title="") Акт освидетельствования геодезической разбивочной основы
+            td(align="center")
+              span.bold 8500 - 9500
+            td(align="center")
+              span.bold 664Р
+            td(align="center")
+              span.red 1.05.2017 15:03
+            td
+              a(href="#" title="").button._green._view Открыть
+
+mixin user-tasks-moderation(data)
+  .user-tasks
+    .user-tasks__left
+      +user-tasks-themes
+
+    .user-tasks__right
+      table.user-tasks-table._moderation
+        thead
+          tr
+            th(align="left") Тема статьи
+            th(align="center") Кол-во символов
+            th(align="center") Стоимость
+            th(align="center") Дата отправки
+        tbody
+          tr
+            td
+              a(href="#" title="") Акт освидетельствования геодезической разбивочной основы
+            td(align="center")
+              span.bold 8500 - 9500
+            td(align="center")
+              span.bold 664Р
+            td(align="center")
+              span.bold 1.05.2017 15:03
+          
+          tr
+            td
+              a(href="#" title="") Акт освидетельствования геодезической разбивочной основы
+            td(align="center")
+              span.bold 8500 - 9500
+            td(align="center")
+              span.bold 664Р
+            td(align="center")
+              span.bold 1.05.2017 15:03
+
+          tr
+            td
+              a(href="#" title="") Акт освидетельствования геодезической разбивочной основы
+            td(align="center")
+              span.bold 8500 - 9500
+            td(align="center")
+              span.bold 664Р
+            td(align="center")
+              span.bold 1.05.2017 15:03
+
+mixin user-tasks-revision(data)
+  .user-tasks
+    .user-tasks__left
+      +user-tasks-themes
+
+    .user-tasks__right
+      table.user-tasks-table._revision
+        thead
+          tr
+            th(align="left") Тема статьи
+            th(align="center") Доработка
+            th(align="center") Осталось времени
+            th
+        tbody
+          tr
+            td
+              a(href="#" title="") Акт освидетельствования геодезической разбивочной основы
+            td(align="center")
+              span.bold Орфография, Спам, Ключевики
+            td(align="center")
+              span.red 5 ч. 56 мин
+            td
+              a(href="#" title="").button._green._view Открыть
+          
+          tr
+            td
+              a(href="#" title="") Акт освидетельствования геодезической разбивочной основы
+            td(align="center")
+              span.bold Орфография, Спам, Ключевики
+            td(align="center")
+              span.red 5 ч. 56 мин
+            td
+              a(href="#" title="").button._green._view Открыть
+
+          tr
+            td
+              a(href="#" title="") Акт освидетельствования геодезической разбивочной основы
+            td(align="center")
+              span.bold Орфография, Спам, Ключевики
+            td(align="center")
+              span.red 5 ч. 56 мин
+            td
+              a(href="#" title="").button._green._view Открыть
+
+mixin user-tasks-executed(data)
+  .user-tasks
+    .user-tasks__left
+      +user-tasks-themes
+
+    .user-tasks__right
+      table.user-tasks-table._executed
+        thead
+          tr
+            th(align="left") Тема статьи
+            th(align="center") Кол-во символ
+            th(align="center") Стоимость
+            th(align="center") Дата сдачи
+            th(align="center") ID
+            th(align="center") Оценка
+        tbody
+          - for (var i = 0; i < 9; i++)
+            tr
+              td
+                a(href="#" title="") Акт освидетельствования геодезической разбивочной основы
+              td(align="center")
+                span.bold 8500-9500
+              td(align="center")
+                span.bold 664Р
+              td(align="center") 1.05.2017 15:03
+              td(align="center") 00000015
+              td(align="center")
+                span.bold 9.5
+
+      .user-tasks-info
+        .user-tasks-info__group
+          .user-tasks-info__item._all Всего выполненно: <span class="bold">465</span>
+          .user-tasks-info__item._rate Средний бал: <span class="bold">9.5</span>
+        +pagination

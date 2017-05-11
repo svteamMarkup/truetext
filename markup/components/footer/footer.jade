@@ -1,4 +1,5 @@
 mixin footer(data)
-  footer.footer
+  - var modiffer = attributes.class || ''
+  footer.footer(class="#{modiffer}")
     .footer__wrapper
       .footer__logo Truetext

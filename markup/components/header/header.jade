@@ -1,5 +1,6 @@
 mixin header-user(data)
-  header.header
+  - var modiffer = attributes.class || ''
+  header.header(class="#{modiffer}")
     .header__wrapper
       .header__logo Truetext
       +menu-user

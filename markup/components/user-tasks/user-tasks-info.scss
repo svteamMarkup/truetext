@@ -1,0 +1,46 @@
+.user-tasks-info {
+  display: flex;
+
+  margin-top: 18px;
+  margin-left: -22px;
+  padding: 15px 22px;
+
+  background-color: #dbe1e8;
+
+  justify-content: space-between;
+  align-items: center;
+  &__group {
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__item {
+    font-size: 19px;
+
+    position: relative;
+
+    margin-right: 25px;
+
+    color: $mako;
+    &:before {
+      left: 0;
+
+      content: '';
+
+      @include vertical-center;
+    }
+    &._all {
+      padding-left: 35px;
+      &:before {
+        @include bg($all);
+      }
+    }
+    &._rate {
+      padding-left: 38px;
+      &:before {
+        @include bg($rate);
+      }
+    }
+  }
+}

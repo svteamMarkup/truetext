@@ -1,0 +1,47 @@
+.user-tasks-table {
+  font-size: 14px;
+
+  width: 100%;
+  thead {
+    tr {
+      font-size: 14px;
+
+      margin-bottom: 10px;
+
+      background-color: $geyser;
+      th {
+        padding: 10px 25px;
+      }
+    }
+  }
+  tbody {
+    tr {
+      border-collapse: separate;
+
+      border-bottom: 1px solid #e1e6eb;
+      td {
+        padding: 15px 25px;
+
+        background-color: $white;
+        a {
+          color: $light-blue;
+          &:hover {
+            color: $blue;
+          }
+        }
+      }
+    }
+  }
+  &._available {
+    tbody {
+      tr {
+        td {
+          &:nth-child(5),
+          &:nth-child(6) {
+            padding: 15px 10px;
+          }
+        }
+      }
+    }
+  }
+}

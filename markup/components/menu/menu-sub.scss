@@ -1,0 +1,49 @@
+.menu-sub {
+  // margin-bottom: 30px;
+
+  background-color: $white;
+  box-shadow: 0 0 3px rgba($black, .28);
+  &__list {
+    position: relative;
+
+    display: flex;
+
+    @extend .wrapper;
+    justify-content: center;
+    align-items: center;
+    &:before {
+      position: absolute;
+      top: -5px;
+      left: 365px;
+
+      width: 0;
+      height: 0;
+
+      content: '';
+
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid $white;
+      border-left: 5px solid transparent;
+    }
+  }
+  &__item {
+    font-size: 14px;
+
+    padding: 12px 18px;
+
+    color: $mako;
+    border-bottom: 2px solid transparent;
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    &._active {
+      border-bottom: 2px solid $light-blue;
+    }
+    &:hover {
+      border-bottom: 2px solid $light-blue;
+    }
+  }
+}

@@ -7,3 +7,12 @@ mixin menu-user(data)
       span 5
     a(href="#" title="").menu__item._profile профиль
     a(href="#" title="").menu__item._rules Правила
+
+mixin menu-user-sub(data)
+  .menu-sub
+    .menu-sub__list
+      a(href="#" title="").menu-sub__item._active Доступные <span class="green">(15)</span>
+      a(href="#" title="").menu-sub__item В работе (5)
+      a(href="#" title="").menu-sub__item На модерации (2)
+      a(href="#" title="").menu-sub__item На доработку
+      a(href="#" title="").menu-sub__item Выполненные

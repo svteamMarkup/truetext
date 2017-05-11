@@ -1,0 +1,43 @@
+.user-tasks-themes {
+  width: 100%;
+  min-height: 100%;
+  margin-top: 1px;
+  padding-top: 45px;
+  padding-bottom: 60%;
+
+  background-color: #fcfdfe;
+  box-shadow: 0 3px 3px rgba($black, .28);
+  &__title {
+    font-family: 'Lato-Bold';
+
+    margin-bottom: 10px;
+    padding-left: 38px;
+
+    text-transform: uppercase;
+
+    color: $green;
+  }
+  &__item {
+    font-size: 17px;
+
+    display: block;
+
+    padding: 12px 0 12px 38px;
+
+    color: $mako;
+    border-left: 2px solid transparent;
+    span {
+      border-bottom: 1px dashed $mako;
+    }
+    &._active,
+    &:hover {
+      cursor: pointer;
+
+      border-left: 2px solid $light-blue;
+      background-color: #dbe1e8;
+      span {
+        border-bottom: 1px solid transparent;
+      }
+    }
+  }
+}

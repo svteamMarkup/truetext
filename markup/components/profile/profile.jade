@@ -1,0 +1,67 @@
+mixin profile(data)
+  .profile
+    h1 Профиль
+    .profile__wrapper
+      .profile__column._left
+        .profile-info
+          .profile-info__row
+            .profile-info__left ВАш рейтинг
+            .profile-info__right 640
+          .profile-info__row
+            .profile-info__left Ставка за 1000 символов
+            .profile-info__right 20р
+
+        form(action="" method="").profile-form
+          .profile-form__row
+            .profile-form__left
+              label.form-label Логин в etxt
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row
+            .profile-form__left
+              label.form-label Имя 
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row
+            .profile-form__left
+              label.form-label Фамилия
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row
+            .profile-form__left
+              label.form-label WMR
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row
+            .profile-form__left
+              label.form-label Скайп
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row._right
+            input(type="submit" value="Сохранить").button._blue.profile-form__submit
+
+      .profile__column._right
+        .profile-photo
+          .profile-photo__avatar
+            img(src="%=static=%images/content/default-profile-photo.png" alt="")
+          .profile-photo__change Выбрать фото
+            input(type="file")
+
+        form(action="" method="").profile-form
+          .profile-form__row
+            .profile-form__left
+              label.form-label Старый пароль
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row
+            .profile-form__left
+              label.form-label Новый пароль
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row
+            .profile-form__left
+              label.form-label Еще раз
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row._right
+            input(type="submit" value="Изменить пароль").button._blue.profile-form__submit

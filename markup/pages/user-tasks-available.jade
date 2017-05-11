@@ -1,0 +1,13 @@
+extends ./layout.jade
+
+block header
+  +header-user._submenu
+  +menu-user-sub
+
+block content
+  +user-tasks-available
+
+block footer
+  +footer._inside
+  +modal-take-task
+  .mask._active

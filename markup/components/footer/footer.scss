@@ -5,6 +5,9 @@
   background-color: $mako;
 
   flex: 0 0 auto;
+  &._inside {
+    margin-top: 0;
+  }
   &__wrapper {
     @extend .wrapper;
   }

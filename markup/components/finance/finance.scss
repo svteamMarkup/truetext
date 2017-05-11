@@ -1,0 +1,52 @@
+.finance {
+  @extend .wrapper;
+  &__wrapper {
+    padding: 30px;
+
+    @extend .white-plask;
+  }
+}
+
+.finance-balance {
+  position: relative;
+
+  display: flex;
+
+  padding: 25px;
+  padding-left: 125px;
+
+  background-color: $green;
+
+  justify-content: space-between;
+  align-items: center;
+  &:before {
+    position: absolute;
+    left: 30px;
+
+    content: '';
+
+    @include bg($balance);
+    @include vertical-center;
+  }
+  &__title {
+    font-size: 18px;
+    line-height: 1;
+
+    color: $white;
+    span {
+      font-family: 'Lato-Bold';
+      font-size: 35px;
+
+      display: block;
+    }
+  }
+}
+
+.finance-history {
+  padding-top: 45px;
+  &__title {
+    margin-bottom: 15px;
+
+    @extend .subtitle;
+  }
+}

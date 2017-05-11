@@ -10,10 +10,11 @@
 .top-main-header {
   position: relative;
 
+  display: flex;
+
   padding: 25px 0;
 
   @extend .wrapper;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   &__logo {

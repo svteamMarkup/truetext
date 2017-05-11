@@ -28,6 +28,15 @@ h1 {
   color: $mako;
 }
 
+.subtitle {
+  font-family: 'Lato-Bold';
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  color: $mako;
+}
+
 .white-plask {
   background-color: $white;
   box-shadow: 0 0 5px rgba($black, .1);
@@ -50,6 +59,9 @@ h1 {
     color: $white;
     background-color: $green;
     &:hover {
+      cursor: pointer;
+
+      color: $white;
       background-color: $green + #111;
     }
   }
@@ -136,6 +148,51 @@ h1 {
       @extend .fa-trash-o;
     }
   }
+  &._balance {
+    line-height: 33px;
+
+    display: block;
+
+    width: 170px;
+    height: 33px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $green;
+    background-color: $white;
+    &:hover {
+      color: $green - #111;
+    }
+  }
+  &._view {
+    position: relative;
+
+    padding: 5px 15px 5px 28px;
+    &:before {
+      font-size: 14px;
+
+      position: absolute;
+      left: 10px;
+
+      @extend .fa;
+      @extend .fa-file-text-o;
+    }
+  }
+  &._take {
+    position: relative;
+
+    padding: 5px 15px 5px 28px;
+    &:before {
+      font-size: 14px;
+
+      position: absolute;
+      left: 10px;
+
+      @extend .fa;
+      @extend .fa-check;
+    }
+  }
 }
 
 .table {
@@ -162,6 +219,8 @@ h1 {
     tr {
       border-bottom: 1px solid #e1e6eb;
       td {
+        font-size: 14px;
+
         padding: 10px 25px 10px 0;
 
         vertical-align: top;
@@ -185,4 +244,30 @@ h1 {
     height: 100px;
     padding: 15px;
   }
+}
+
+.form-label {
+  font-family: 'Lato-Bold';
+  font-size: 14px;
+
+  color: $mako;
+}
+
+.green {
+  color: $green;
+}
+.blue {
+  color: $light-blue;
+}
+.bold {
+  font-family: 'Lato-Bold';
+
+  white-space: nowrap;
+}
+.red {
+  font-family: 'Lato-Bold';
+
+  white-space: nowrap;
+
+  color: red;
 }

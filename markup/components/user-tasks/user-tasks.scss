@@ -1,0 +1,21 @@
+.user-tasks {
+  display: flex;
+
+  @extend .wrapper;
+  justify-content: space-between;
+  align-items: stretch;
+  &__left {
+    position: relative;
+
+    width: 100%;
+    max-width: 230px;
+    height: 100%;
+  }
+  &__right {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1035px;
+    padding-top: 30px;
+    padding-left: 21px;
+  }
+}

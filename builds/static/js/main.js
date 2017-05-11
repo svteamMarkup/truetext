@@ -3,6 +3,7 @@
 
 
 
+
 $('[data-modal]').click(function (e) {
   e.preventDefault();
   $('.modal').removeClass('_active');
@@ -16,6 +17,8 @@ $('.mask, .modal__close').click(function () {
   $('.modal').removeClass('_active');
 });
 
+
+
 $('.jsOpen').on('click', function () {
   var $this = $(this);
 
@@ -25,4 +28,5 @@ $('.jsOpen').on('click', function () {
 $(document).ready(function() {
   $('.jsScrollDown').scrollTop(100000);
 });
+
 
