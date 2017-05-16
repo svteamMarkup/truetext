@@ -22,7 +22,9 @@ module.exports = {
             "useHMR": false,
             "providePlugin": {}
         },
-        "jsPathsToConcatBeforeModulesJs": [],
+        "jsPathsToConcatBeforeModulesJs": [
+            'node_modules/air-datepicker/dist/js/datepicker.js'
+        ],
         "lintJsCodeBeforeModules": false,
         "jsPathsToConcatAfterModulesJs": [],
         "lintJsCodeAfterModules": false

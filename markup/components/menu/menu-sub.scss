@@ -1,8 +1,36 @@
 .menu-sub {
   // margin-bottom: 30px;
-
   background-color: $white;
   box-shadow: 0 0 3px rgba($black, .28);
+  &._admin {
+    .menu-sub__list {
+      &:before {
+        left: 320px;
+      }
+    }
+  }
+  &__group {
+    display: flex;
+
+    padding-left: 20px;
+
+    border-right: 1px solid #eaecef;
+
+    justify-content: space-between;
+    align-items: center;
+    &:last-child {
+      border-right: 0;
+    }
+  }
+  &__title {
+    font-size: 14px;
+
+    margin-right: 10px;
+
+    text-transform: uppercase;
+
+    color: $green;
+  }
   &__list {
     position: relative;
 

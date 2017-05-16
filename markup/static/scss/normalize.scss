@@ -248,6 +248,9 @@ textarea {
   margin: 0; /* 3 */
 
   color: inherit; /* 1 */
+  &:focus {
+    outline: none;
+  }
 }
 
 fieldset {

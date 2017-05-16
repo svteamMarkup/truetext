@@ -1,0 +1,28 @@
+.form-select-date {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  &__title {
+    font-size: 14px;
+
+    margin-right: 10px;
+  }
+  &__field {
+    font-size: 13px;
+
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 90px;
+    height: 30px;
+    margin-right: 7px;
+    padding: 5px 5px;
+  }
+  &__submit {
+    box-sizing: border-box;
+    height: 30px;
+
+    @extend .button;
+    @extend .button._blue;
+  }
+}

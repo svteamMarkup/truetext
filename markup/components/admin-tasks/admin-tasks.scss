@@ -1,0 +1,40 @@
+.admin-tasks {
+  position: relative;
+
+  @extend .wrapper;
+  &__body {
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  &__column {
+    width: 190px;
+
+    box-shadow: inset 0 0 0 1px $geyser;
+  }
+  &__content {
+    overflow-y: scroll;
+
+    width: 100%;
+    max-width: 865px;
+    height: 550px;
+  }
+  &__all {
+    line-height: 60px;
+
+    position: absolute;
+    bottom: 0;
+
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 865px;
+    height: 60px;
+    padding-left: 25px;
+
+    background-color: #b3bfcd;
+    span {
+      margin-right: 80px;
+    }
+  }
+}

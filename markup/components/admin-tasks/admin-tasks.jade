@@ -1,0 +1,290 @@
+mixin admin-tasks-projects(data)
+  .admin-tasks-categories
+    .admin-tasks-categories__title Проект
+    .admin-tasks-categories__list
+      a(href="#" title="").admin-tasks-categories__item Sovets.net (5)
+      a(href="#" title="").admin-tasks-categories__item._active Lecheniezubov (45)
+      a(href="#" title="").admin-tasks-categories__item Sovets24 (10)
+      a(href="#" title="").admin-tasks-categories__item Фасад (4)
+      a(href="#" title="").admin-tasks-categories__item Мосмама (97)
+      a(href="#" title="").admin-tasks-categories__item СвадьбаВо (55)
+      a(href="#" title="").admin-tasks-categories__item Все проекты (987)
+
+mixin admin-tasks-themes(data)
+  .admin-tasks-categories
+    .admin-tasks-categories__title Тематика
+    .admin-tasks-categories__list
+      a(href="#" title="").admin-tasks-categories__item Советы  (15) 
+      a(href="#" title="").admin-tasks-categories__item Свадьба (23)
+      a(href="#" title="").admin-tasks-categories__item Мода  (5)
+      a(href="#" title="").admin-tasks-categories__item Врач (15)
+      a(href="#" title="").admin-tasks-categories__item._active Диета (30) 
+      a(href="#" title="").admin-tasks-categories__item Волосы (7)
+      a(href="#" title="").admin-tasks-categories__item Подарки (35) 
+      a(href="#" title="").admin-tasks-categories__item Стоматология (5)
+      a(href="#" title="").admin-tasks-categories__item Отопление (3) 
+      a(href="#" title="").admin-tasks-categories__item Фасад (2)
+      a(href="#" title="").admin-tasks-categories__item Ремонт (72)
+      a(href="#" title="").admin-tasks-categories__item Финансы (7)
+      a(href="#" title="").admin-tasks-categories__item Все тематики (450)
+
+mixin admin-tasks-header(title)
+  .admin-tasks-header
+    h1.admin-tasks-header__title= title
+    .admin-tasks-header__search
+      +form-search
+    .admin-tasks-header__select-col
+      .select
+        select
+          option Копирайтер
+          option Постер
+          option Редактор
+          option Семантист
+    .admin-tasks-header__date
+      +form-select-date
+
+mixin admin-tasks-published(data)
+  .admin-tasks
+    +admin-tasks-header('Опубликовано')
+    .admin-tasks__body
+      .admin-tasks__column
+        +admin-tasks-projects()
+      .admin-tasks__column
+        +admin-tasks-themes()
+      .admin-tasks__content
+        table.table._scrollable
+          thead
+            tr
+              th Задания
+              th Копирайтер
+              th Редактор
+              th Постер
+              th Стоимость
+              th Дата
+              th Ссылка
+          tbody
+            - for (var i = 0; i < 25; i++)
+              tr
+                td 
+                  a(href="#" title="") Как рассчитать компенсацию за неиспользованный отпуск 
+                td
+                  span.bold Иван Петров
+                td
+                  span.bold Мария Рябова
+                td
+                  span.bold Иван Иванов
+                td
+                  span.bold 1664Р
+                td
+                  span.bold 15.05.2016
+                  span.light 8 ч 53 мин
+                td
+                  a(href="#" title="").button._blue._link
+
+        .admin-tasks__all Всего статей опубликовано: <span class="bold">15</span>
+
+mixin admin-tasks-approved(data)
+  .admin-tasks
+    +admin-tasks-header('Принятые статьи')
+    .admin-tasks__body
+      .admin-tasks__column
+        +admin-tasks-projects()
+      .admin-tasks__column
+        +admin-tasks-themes()
+      .admin-tasks__content
+        table.table._scrollable
+          thead
+            tr
+              th Задания
+              th Символов
+              th Стоимость
+              th Копирайтер
+              th Редактор
+              th Оплата
+              th Дата
+          tbody
+            - for (var i = 0; i < 25; i++)
+              tr
+                td 
+                  a(href="#" title="") Как рассчитать компенсацию за неиспользованный отпуск 
+                td
+                  span.bold 8500
+                td
+                  span.bold 664Р
+                td
+                  span.bold Иван Петров
+                td
+                  span.bold Мария Рябова
+                td
+                  span.bold 500Р
+                td
+                  span.bold 15.05.2016
+                  span.light 8 ч 53 мин
+
+        .admin-tasks__all Всего статей принято: <span class="bold">15</span>
+
+mixin admin-tasks-completion(data)
+  .admin-tasks
+    +admin-tasks-header('На доработке')
+    .admin-tasks__body
+      .admin-tasks__column
+        +admin-tasks-projects()
+      .admin-tasks__column
+        +admin-tasks-themes()
+      .admin-tasks__content
+        table.table._scrollable
+          thead
+            tr
+              th Задания
+              th Копирайтер
+              th Редактор
+              th Дата
+              th Причина
+              th Управление
+          tbody
+            - for (var i = 0; i < 25; i++)
+              tr
+                td 
+                  a(href="#" title="") Как рассчитать компенсацию за неиспользованный отпуск 
+                td
+                  span.bold Иван Петров
+                td
+                  span.bold Мария Рябова
+                td
+                  span.bold 15.05.2016
+                  span.light 8 ч 53 мин
+                td
+                  span.red Спам, ошибки
+                td
+                  a(href="#" title="").button._blue._redact
+                  a(href="#" title="").button._blue._drop
+
+
+        .admin-tasks__all Всего статей на доработке: <span class="bold">15</span>
+
+mixin admin-tasks-moderation(data)
+  .admin-tasks
+    +admin-tasks-header('Статьи на модерации')
+    .admin-tasks__body
+      .admin-tasks__column
+        +admin-tasks-projects()
+      .admin-tasks__column
+        +admin-tasks-themes()
+      .admin-tasks__content
+        table.table._scrollable
+          thead
+            tr
+              th Задания
+              th Кол-во символов
+              th Стоимость
+              th Копирайтер
+              th Статус
+              th Дата
+              th Управление
+          tbody
+            - for (var i = 0; i < 25; i++)
+              tr
+                td 
+                  a(href="#" title="") Как рассчитать компенсацию за неиспользованный отпуск 
+                td
+                  span.bold 8500 - 9500
+                td
+                  span.bold 664Р
+                td
+                  span.bold Иван Петров
+                td
+                  span.bold Новая
+                td
+                  span.bold 15.05.2016
+                  span.light 8 ч 53 мин
+                td
+                  a(href="#" title="").button._blue._redact
+                  a(href="#" title="").button._blue._drop
+
+
+        .admin-tasks__all Всего статей на модерации: <span class="bold">15</span>
+
+mixin admin-tasks-work(data)
+  .admin-tasks
+    +admin-tasks-header('Задания в работе')
+    .admin-tasks__body
+      .admin-tasks__column
+        +admin-tasks-projects()
+      .admin-tasks__column
+        +admin-tasks-themes()
+      .admin-tasks__content
+        table.table._scrollable
+          thead
+            tr
+              th Задания
+              th Кол-во символов
+              th Стоимость
+              th Копирайтер
+              th Дата
+              th Управление
+          tbody
+            - for (var i = 0; i < 25; i++)
+              tr
+                td 
+                  a(href="#" title="") Как рассчитать компенсацию за неиспользованный отпуск 
+                td
+                  span.bold 8500 - 9500
+                td
+                  span.bold 664Р
+                td
+                  span.bold Иван Петров
+                td
+                  span.bold 15.05.2016
+                  span.light 8 ч 53 мин
+                td
+                  a(href="#" title="").button._blue._redact
+                  a(href="#" title="").button._blue._drop
+
+
+        .admin-tasks__all Всего статей: <span class="bold">15</span>
+          | Кол-во символов: <span class="bold">56 000</span>
+          | Общая стоимость: <span class="bold">15 664Р</span>
+
+mixin admin-tasks-ready(data)
+  .admin-tasks
+    +admin-tasks-header('Готовые задания')
+    .admin-tasks__body
+      .admin-tasks__column
+        +admin-tasks-projects()
+      .admin-tasks__column
+        +admin-tasks-themes()
+      .admin-tasks__content
+        table.table._scrollable
+          thead
+            tr
+              th Задания
+              th Кол-во символов
+              th Стоимость
+              th Ключевики
+              th Семантист
+              th Дата
+              th Управление
+          tbody
+            - for (var i = 0; i < 25; i++)
+              tr
+                td 
+                  a(href="#" title="") Как рассчитать компенсацию за неиспользованный отпуск 
+                td
+                  span.bold 8500 - 9500
+                td
+                  span.bold 664Р
+                td
+                  span.bold 99
+                td
+                  span.bold Иван Петров
+                td
+                  span.bold 15.05.2016
+                  span.light 8 ч 53 мин
+                td
+                  a(href="#" title="").button._blue._redact
+                  a(href="#" title="").button._blue._drop
+
+
+        .admin-tasks__all Всего статей: <span class="bold">15</span>
+          | Кол-во символов: <span class="bold">56 000</span>
+          | Общая стоимость: <span class="bold">15 664Р</span>

@@ -16,3 +16,27 @@ mixin menu-user-sub(data)
       a(href="#" title="").menu-sub__item На модерации (2)
       a(href="#" title="").menu-sub__item На доработку
       a(href="#" title="").menu-sub__item Выполненные
+
+mixin menu-admin(data)
+  .menu
+    a(href="#" title="").menu__item._tasks._active задания
+    a(href="#" title="").menu__item._users пользователи
+    a(href="#" title="").menu__item._finance Финансы
+    a(href="#" title="").menu__item._tickets тикеты
+      span 5
+    a(href="#" title="").menu__item._news Новости
+
+mixin menu-admin-sub(data)
+  .menu-sub._admin
+    .menu-sub__list
+      .menu-sub__group
+        .menu-sub__title ЗАДАНИЯ:
+        a(href="#" title="").menu-sub__item Новые (5)
+        a(href="#" title="").menu-sub__item Готовые (5)
+        a(href="#" title="").menu-sub__item В работе (5) 
+      .menu-sub__group
+        .menu-sub__title СТАТЬИ:
+        a(href="#" title="").menu-sub__item На модерации (5)
+        a(href="#" title="").menu-sub__item На доработке (5)
+        a(href="#" title="").menu-sub__item Принятые (5)
+        a(href="#" title="").menu-sub__item Опубликовано (5)                

@@ -4,28 +4,68 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-decoration"
+				"marign",
+				"margin-right"
 			],
 			[
-				"pad",
-				"padding-bottom"
+				"font",
+				"font-size"
 			],
 			[
 				"margin",
-				"margin-left"
+				"margin"
 			],
 			[
-				"padd",
-				"padding-top"
+				"border",
+				"border-bottom"
 			],
 			[
-				"min",
-				"min-height"
+				"spa",
+				"space-between"
 			],
 			[
 				"fon",
 				"font-size"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"modal",
+				"modal"
+			],
+			[
+				"moda",
+				"modal"
+			],
+			[
+				"modal__",
+				"modal__close"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"men",
+				"menu-sub"
+			],
+			[
+				"fin",
+				"finance-history"
+			],
+			[
+				"pro",
+				"profile-photo"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"min",
+				"min-height"
 			],
 			[
 				"max",
@@ -42,14 +82,6 @@
 			[
 				"tic",
 				"tickets-view-correspondence"
-			],
-			[
-				"marign",
-				"margin-top"
-			],
-			[
-				"border",
-				"border-left"
 			],
 			[
 				"border-lef",
@@ -124,10 +156,6 @@
 				"selected-performer-card-contacts"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"order",
 				"order-comments-answer"
 			],
@@ -154,10 +182,6 @@
 			[
 				"user",
 				"user-settings-notifications"
-			],
-			[
-				"moda",
-				"modal__text"
 			],
 			[
 				"_",
@@ -198,10 +222,6 @@
 			[
 				"inde",
 				"indexTab"
-			],
-			[
-				"modal",
-				"modal-order"
 			],
 			[
 				"emp",
@@ -440,10 +460,6 @@
 				"blog-content-reviews"
 			],
 			[
-				"pro",
-				"proofs-content-item"
-			],
-			[
 				"in",
 				"inline-block"
 			],
@@ -498,99 +514,11 @@
 			[
 				"border-bo",
 				"border-bottom"
-			],
-			[
-				"top-me",
-				"top-menu__item"
-			],
-			[
-				"rgb",
-				"rgba()"
-			],
-			[
-				"spa",
-				"spares-content-links"
-			],
-			[
-				"s",
-				"spares-content-links"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "markup/pages/user-tickets-view.jade",
-			"settings":
-			{
-				"buffer_size": 81,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/components/tickets-view/tickets-view.jade",
-			"settings":
-			{
-				"buffer_size": 3103,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/components/tickets-view/tickets-view.scss",
-			"settings":
-			{
-				"buffer_size": 1310,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/components/top-main/top-main.scss",
-			"settings":
-			{
-				"buffer_size": 1527,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/components/modal/modal.scss",
-			"settings":
-			{
-				"buffer_size": 3302,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "1. http://dump.uz/1770179ce3f82c5695e56362ee5d9f2f\n2. http://dump.uz/dd9b3e55b4367585039549e7a08911b3\n3. http://dump.uz/c9579367a165798d147f9def0dd249b8\n4. http://dump.uz/2d7bec2d2d6ee5226689e67d6fc09582\n5. http://dump.uz/c27565ce58c11b79679cafda1cf8ca0f\n6. http://dump.uz/027cd65475ac4a81347b58879fad5403\n7. http://dump.uz/6daa8fdba46806cf7cbad99c72cba834\n8. http://dump.uz/cd4a5779466ee2748e1be558d0ed1a88",
-			"settings":
-			{
-				"buffer_size": 407,
-				"line_ending": "Unix",
-				"name": "1. http://dump.uz/1770179ce3f82c5695e56362ee5d9f2f"
-			}
-		},
-		{
-			"file": "markup/pages/index.jade",
-			"settings":
-			{
-				"buffer_size": 563,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/static/scss/GUI.scss",
-			"settings":
-			{
-				"buffer_size": 2878,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -666,23 +594,52 @@
 		"/Users/extiser/git/SVTEAM/truetext/markup",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/modal",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-list/assets",
 		"/Users/extiser/git/SVTEAM/truetext/markup/pages",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/bytext/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/user-tasks/user-tasks.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-tasks-available.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/modal/modal-take-task.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/modal/modal.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/modal/modal.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/layout.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/user-tasks/user-tasks-info.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/user-tasks/user-tasks-table.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/user-tasks/user-tasks.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/pagination/pagination.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/pagination/pagination.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-tasks-executed.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/user-tasks/user-tasks-themes.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-tasks-underway.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/footer/footer.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/footer/footer.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu-sub.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/tasks-available/tasks-available.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/tasks-available/tasks-available.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/header/header.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/header/header.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/finance/finance.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/finance/finance.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/profile/profile.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/profile/profile.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/index.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-tickets-view.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-view/tickets-view.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-view/tickets-view.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/top-main/top-main.scss",
+		"/Users/extiser/git/bytext/markup/static/scss/GUI.scss",
 		"/Users/extiser/MAMP/qatar-quto/index.php",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-list/tickets-list.js",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/normalize.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/vars.scss",
-		"/Users/extiser/git/SVTEAM/truetext/markup/pages/layout.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-list/tickets-list.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-list/tickets-list.jade",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/header/header.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-rules.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-tickets.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/rules-list/rules-list.js",
@@ -690,18 +647,12 @@
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/rules-list/rules-list.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/news-list/news-list.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-news.jade",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/footer/footer.jade",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/footer/footer.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/common.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/news-list/news-list.scss",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/header/header.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/logined/logined.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/logined/logined.scss",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu.scss",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/SVTEAM/sovets-2017/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/SVTEAM/truetext/markup/pages/index.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/fonts.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/default_component_scheme.json",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/head/data/data.js",
@@ -776,31 +727,7 @@
 		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings.scss",
 		"/Users/extiser/git/1studio/netexar/markup/components/customer-settings/customer-settings-personal.scss",
 		"/Users/extiser/git/1studio/netexar/markup/components/customer-settings/customer-settings.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings-photo.scss",
-		"/Users/extiser/git/1studio/netexar/markup/pages/personal-cutomer-settings.jade",
-		"/Users/extiser/git/1studio/netexar/markup/pages/personal-cutomer-list-orders.jade",
-		"/Users/extiser/git/1studio/netexar/markup/components/tabs/tabs-content.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/card/card.js",
-		"/Users/extiser/git/1studio/netexar/markup/components/rating/rating.jade",
-		"/Users/extiser/git/1studio/netexar/markup/components/rating/rating.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/tabs/tabs.js",
-		"/Users/extiser/git/1studio/netexar/markup/components/main-list/main-list.jade",
-		"/Users/extiser/git/1studio/netexar/markup/components/tabs/tabs-contents.scs",
-		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/jsExtraCheck.js",
-		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form-checkbox.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/push-notifications/push-notifications.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form-select.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form-group.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form.scss",
-		"/Users/extiser/git/1studio/netexar/markup/pages/personal-cutomer-empty-orders.jade",
-		"/Users/extiser/git/1studio/netexar/markup/components/gui-datepicker/_datepicker-config.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/dateSelect.js",
-		"/Users/extiser/git/1studio/netexar/node_modules/air-datepicker/dist/css/datepicker.css",
-		"/Users/extiser/git/1studio/netexar/node_modules/air-datepicker/src/sass/timepicker.scss",
-		"/Users/extiser/git/1studio/netexar/node_modules/air-datepicker/src/sass/_datepicker-config.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/push-notifications/push-notifications.jade",
-		"/Users/extiser/git/1studio/netexar/markup/components/push-notifications/push-notifications.js",
-		"/Users/extiser/git/1studio/netexar/markup/static/scss/common.scss"
+		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings-photo.scss"
 	],
 	"find":
 	{
@@ -820,6 +747,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"   ",
+			"table",
+			".button",
+			".table",
+			"button",
 			"form-field",
 			".main",
 			"textarea",
@@ -942,12 +874,7 @@
 			"\"",
 			"$",
 			"slides",
-			"'",
-			"brow",
-			"localhost",
-			"art-postheader",
-			"jquery",
-			"migrate"
+			"'"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -955,6 +882,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"            li ",
+			"",
 			"Lato-Italic",
 			"Lato-Bold",
 			"Lato-Regular",
@@ -1080,9 +1009,7 @@
 			"class=\"redacting\"",
 			"rows=\"5\"",
 			"parking",
-			"option",
-			"",
-			"</p>"
+			"option"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1093,252 +1020,8 @@
 	"groups":
 	[
 		{
-			"selected": 5,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "markup/pages/user-tickets-view.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 81,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								81,
-								69
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "markup/components/tickets-view/tickets-view.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3103,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2782,
-								2749
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1028.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "markup/components/tickets-view/tickets-view.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1310,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1310
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1693.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "markup/components/top-main/top-main.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1527,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								308,
-								308
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1332.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "markup/components/modal/modal.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3302,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2854,
-								2854
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4366.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 407,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								407
-							]
-						],
-						"settings":
-						{
-							"auto_name": "1. http://dump.uz/1770179ce3f82c5695e56362ee5d9f2f",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "markup/pages/index.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 563,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								509,
-								509
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "markup/static/scss/GUI.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2878,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								559,
-								559
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 555.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],

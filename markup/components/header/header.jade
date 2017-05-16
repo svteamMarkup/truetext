@@ -5,3 +5,11 @@ mixin header-user(data)
       .header__logo Truetext
       +menu-user
       +logined-user
+
+mixin header-admin(data)
+  - var modiffer = attributes.class || ''
+  header.header(class="#{modiffer}")
+    .header__wrapper
+      .header__logo
+      +menu-admin
+      +logined-admin

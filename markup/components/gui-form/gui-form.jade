@@ -1,0 +1,11 @@
+mixin form-search()
+  .form-search
+    input(type="text" value="").form-search__field
+    button(type="submit" value="").form-search__submit
+
+mixin form-select-date()
+  .form-select-date
+    .form-select-date__title Выбрать даты
+    input(type="text" value="" class="datepicker-here").form-select-date__field
+    input(type="text" value="" class="datepicker-here").form-select-date__field
+    button(type="submit").form-select-date__submit OK

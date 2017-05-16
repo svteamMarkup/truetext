@@ -1,0 +1,20 @@
+.admin-tasks-header {
+  display: flex;
+
+  padding-top: 25px;
+  padding-bottom: 15px;
+
+  justify-content: space-between;
+  align-items: center;
+  &__title {
+    margin-bottom: 0;
+  }
+  &__search {
+    width: 100%;
+    max-width: 320px;
+  }
+  &__select-col {
+    width: 100%;
+    max-width: 150px;
+  }
+}

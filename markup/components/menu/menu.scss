@@ -87,5 +87,10 @@
         @extend .fa-info-circle;
       }
     }
+    &._users {
+      &:before {
+        @extend .fa-users;
+      }
+    }
   }
 }
