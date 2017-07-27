@@ -1,0 +1,22 @@
+mixin semantist-tasks-add(data)
+  .semantist-tasks-add
+    .rowed-button-title
+      a(href="#" title="").button._back
+      h1 Добавление
+    .semantist-tasks-add__wrapper
+      .semantist-tasks-add__left
+        .form-group
+          label.form-label Ключевики
+          textarea.form-field._textarea._h245
+      .semantist-tasks-add__right
+        .select._mb20
+          select
+            option Тематика
+        .select._mb20
+          select
+            option Сайт
+        .select._mb20
+          select
+            option Группа
+
+        input(type="submit" value="Сохранить").semantist-tasks-add__submit

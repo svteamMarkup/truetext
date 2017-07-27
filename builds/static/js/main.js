@@ -2264,6 +2264,7 @@ $('.jsOpen').on('click', function () {
   $this.find('.jsOpenContent').slideToggle('400');
 });
 
+
 $(document).ready(function() {
   $('.jsScrollDown').scrollTop(100000);
 });

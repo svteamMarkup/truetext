@@ -9,6 +9,13 @@
       }
     }
   }
+  &._semantist {
+    .menu-sub__list {
+      &:before {
+        left: 320px;
+      }
+    }
+  }
   &__group {
     display: flex;
 

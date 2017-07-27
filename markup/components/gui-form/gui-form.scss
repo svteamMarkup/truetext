@@ -10,6 +10,9 @@
     height: 100px;
     padding: 15px;
   }
+  &._h245 {
+    height: 245px;
+  }
 }
 
 .form-label {
@@ -43,5 +46,18 @@
     @include vertical-center;
     @extend .fa;
     @extend .fa-angle-down;
+  }
+  &._mb20 {
+    margin-bottom: 20px;
+  }
+}
+
+.form-group {
+  .form-label {
+    display: block;
+
+    margin-bottom: 10px;
+
+    text-transform: uppercase;
   }
 }

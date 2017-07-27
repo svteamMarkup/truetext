@@ -1,0 +1,36 @@
+.semantist-tasks-add {
+  padding-top: 20px;
+
+  @extend .wrapper;
+  &__wrapper {
+    display: flex;
+
+    padding: 30px;
+
+    @extend .white-plask;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  &__left {
+    width: 840px;
+  }
+  &__right {
+    position: relative;
+
+    width: 300px;
+    padding-top: 27px;
+  }
+  &__submit {
+    font-size: 17px;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 160px;
+    height: 50px;
+
+    @extend .button;
+    @extend .button._green;
+  }
+}

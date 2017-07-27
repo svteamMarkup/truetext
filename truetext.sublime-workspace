@@ -4,16 +4,72 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"border-lef",
+				"border-left"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"form",
+				"form-select-date"
+			],
+			[
+				"for",
+				"form-select-date"
+			],
+			[
+				"admin",
+				"admin-tasks-header"
+			],
+			[
+				"ad",
+				"admin-tasks-published"
+			],
+			[
+				"menu",
+				"menu-sub"
+			],
+			[
+				"lo",
+				"logined__avatar"
+			],
+			[
+				"men",
+				"menu__item"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
 				"marign",
 				"margin-right"
 			],
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"border",
@@ -28,10 +84,6 @@
 				"font-size"
 			],
 			[
-				"pad",
-				"padding-right"
-			],
-			[
 				"modal",
 				"modal"
 			],
@@ -42,14 +94,6 @@
 			[
 				"modal__",
 				"modal__close"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"men",
-				"menu-sub"
 			],
 			[
 				"fin",
@@ -68,10 +112,6 @@
 				"min-height"
 			],
 			[
-				"max",
-				"max-height"
-			],
-			[
 				"ti",
 				"tickets-view-correspondence-item"
 			],
@@ -84,10 +124,6 @@
 				"tickets-view-correspondence"
 			],
 			[
-				"border-lef",
-				"border-left-color"
-			],
-			[
 				"tie",
 				"tickets-list-header"
 			],
@@ -98,10 +134,6 @@
 			[
 				"new",
 				"news-list-item"
-			],
-			[
-				"borde",
-				"border-radius"
 			],
 			[
 				"dp",
@@ -144,10 +176,6 @@
 				"jsChangeAccItemToggle"
 			],
 			[
-				"form",
-				"form-radio"
-			],
-			[
 				"paddin",
 				"padding-left"
 			],
@@ -186,10 +214,6 @@
 			[
 				"_",
 				"_fourth"
-			],
-			[
-				"for",
-				"form-group"
 			],
 			[
 				"use",
@@ -256,10 +280,6 @@
 				"background-color"
 			],
 			[
-				"lo",
-				"logined-dropdown"
-			],
-			[
 				"li",
 				"logined"
 			],
@@ -270,10 +290,6 @@
 			[
 				"log",
 				"logined-user"
-			],
-			[
-				"head",
-				"headerControl"
 			],
 			[
 				"us",
@@ -498,27 +514,38 @@
 			[
 				"las",
 				"last-articles-item"
-			],
-			[
-				"la",
-				"last-articles-item"
-			],
-			[
-				"pop",
-				"popular-articles-item"
-			],
-			[
-				"штука",
-				"штукатурка"
-			],
-			[
-				"border-bo",
-				"border-bottom"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/components/admin-tasks/admin-tasks.jade",
+			"settings":
+			{
+				"buffer_size": 9396,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/static/scss/GUI.scss",
+			"settings":
+			{
+				"buffer_size": 4277,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/pages/admin-tasks-ready.jade",
+			"settings":
+			{
+				"buffer_size": 114,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,20 +620,37 @@
 	[
 		"/Users/extiser/git/SVTEAM/truetext/markup",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/modal",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/admin-tasks",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/gui-form",
 		"/Users/extiser/git/SVTEAM/truetext/markup/pages",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/user-tasks/user-tasks.jade",
-		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-tasks-available.jade",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/modal/modal-take-task.scss",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/modal/modal.jade",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/modal/modal.scss",
-		"/Users/extiser/git/SVTEAM/truetext/markup/pages/layout.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/admin-tasks/admin-tasks.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/admin-tasks/admin-tasks-categories.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/admin-tasks/admin-tasks-header.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/gui-form/form-select-date.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/admin-tasks-published.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/gui-form/gui-form.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/gui-form/gui-form.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/gui-datepicker/_datepicker-config.scss",
+		"/Users/extiser/git/SVTEAM/truetext/tars-config.js",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/gui-form/form-search.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/normalize.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/layout.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/header/header.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu-sub.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/logined/logined.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-tasks-available.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/modal/modal.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/user-tasks/user-tasks.jade",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/modal/modal-take-task.scss",
+		"/Users/extiser/git/SVTEAM/truetext/markup/components/modal/modal.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/user-tasks/user-tasks-info.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/user-tasks/user-tasks-table.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/user-tasks/user-tasks.scss",
@@ -617,13 +661,9 @@
 		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-tasks-underway.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/footer/footer.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/footer/footer.jade",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu-sub.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/tasks-available/tasks-available.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/tasks-available/tasks-available.jade",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu.jade",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/menu/menu.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/header/header.scss",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/header/header.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/finance/finance.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/finance/finance.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/profile/profile.jade",
@@ -636,7 +676,6 @@
 		"/Users/extiser/git/bytext/markup/static/scss/GUI.scss",
 		"/Users/extiser/MAMP/qatar-quto/index.php",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-list/tickets-list.js",
-		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/normalize.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/vars.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-list/tickets-list.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/tickets-list/tickets-list.jade",
@@ -649,7 +688,6 @@
 		"/Users/extiser/git/SVTEAM/truetext/markup/pages/user-news.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/common.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/news-list/news-list.scss",
-		"/Users/extiser/git/SVTEAM/truetext/markup/components/logined/logined.jade",
 		"/Users/extiser/git/SVTEAM/truetext/markup/components/logined/logined.scss",
 		"/Users/extiser/git/SVTEAM/truetext/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/SVTEAM/sovets-2017/markup/static/scss/mixins.scss",
@@ -717,17 +755,7 @@
 		"/Users/extiser/git/1studio/netexar/markup/components/empty-orders/empty-orders.jade",
 		"/Users/extiser/git/1studio/netexar/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings-notifications.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form-attachment.scss",
-		"/Users/extiser/git/1studio/netexar/markup/pages/personal-customer-settings.jade",
-		"/Users/extiser/git/1studio/netexar/markup/components/modals/modal-thanks.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/modals/modals.js",
-		"/Users/extiser/git/1studio/netexar/markup/components/customer-settings/customer-settings.jade",
-		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings-personal.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/modals/modal-order.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/customer-settings/customer-settings-personal.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/customer-settings/customer-settings.scss",
-		"/Users/extiser/git/1studio/netexar/markup/components/user-settings/user-settings-photo.scss"
+		"/Users/extiser/git/1studio/netexar/markup/components/gui-form/form-attachment.scss"
 	],
 	"find":
 	{
@@ -747,6 +775,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"pencil",
+			"table",
+			"select",
+			".form",
+			"form",
 			"   ",
 			"table",
 			".button",
@@ -869,12 +902,7 @@
 			"content-row-l",
 			"content-row-f",
 			"content-row2",
-			"content-row1",
-			".art-menu a",
-			"\"",
-			"$",
-			"slides",
-			"'"
+			"content-row1"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1020,8 +1048,99 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/components/admin-tasks/admin-tasks.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8906,
+								8906
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6442.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/static/scss/GUI.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4149,
+								4149
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6632.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "markup/pages/admin-tasks-ready.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],

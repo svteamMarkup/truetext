@@ -39,4 +39,19 @@ mixin menu-admin-sub(data)
         a(href="#" title="").menu-sub__item На модерации (5)
         a(href="#" title="").menu-sub__item На доработке (5)
         a(href="#" title="").menu-sub__item Принятые (5)
-        a(href="#" title="").menu-sub__item Опубликовано (5)                
+        a(href="#" title="").menu-sub__item Опубликовано (5)
+
+mixin menu-semantist(data)
+  .menu
+    a(href="#" title="").menu__item._news._active новости
+    a(href="#" title="").menu__item._tasks задания
+    a(href="#" title="").menu__item._profile профиль
+
+mixin menu-semantist-sub(data)
+  .menu-sub
+    .menu-sub__list
+      a(href="#" title="").menu-sub__item._active Новые
+      a(href="#" title="").menu-sub__item Дубли
+      a(href="#" title="").menu-sub__item В ожидании
+      a(href="#" title="").menu-sub__item На доработку
+      a(href="#" title="").menu-sub__item Проверенные и не назначенные
