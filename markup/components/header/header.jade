@@ -21,3 +21,11 @@ mixin header-semantist(data)
       .header__logo Truetext
       +menu-semantist
       +logined-semantist
+
+mixin header-originator(data)
+  - var modiffer = attributes.class || ''
+  header.header(class="#{modiffer}")
+    .header__wrapper
+      .header__logo Truetext
+      +menu-originator
+      +logined-originator

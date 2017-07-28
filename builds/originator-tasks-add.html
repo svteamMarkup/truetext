@@ -24,53 +24,109 @@
         <header class="header _submenu">
             <div class="header__wrapper">
                 <div class="header__logo">Truetext</div>
-                <div class="menu"><a href="#" title="" class="menu__item _news _active">новости</a><a href="#" title="" class="menu__item _tasks">задания</a><a href="#" title="" class="menu__item _profile">профиль</a>
+                <div class="menu"><a href="#" title="" class="menu__item _news _active">новости</a><a href="#" title="" class="menu__item _tasks">задания</a><a href="#" title="" class="menu__item _profile">профиль</a><a href="#" title="" class="menu__item _finance">Финансы</a>
                 </div>
                 <div class="logined">
                     <div class="logined__avatar">
                         <img src="http://placehold.it/26x26" alt="">
                     </div>
                     <div class="logined__content">
-                        <div class="logined__name">Семантист</div>
+                        <div class="logined__name">Составитель</div>
                     </div>
                 </div>
             </div>
         </header>
         <div class="menu-sub">
-            <div class="menu-sub__list"><a href="#" title="" class="menu-sub__item _active">Новые</a><a href="#" title="" class="menu-sub__item">Дубли</a><a href="#" title="" class="menu-sub__item">В ожидании</a><a href="#" title="" class="menu-sub__item">На доработку</a><a href="#"
-                title="" class="menu-sub__item">Проверенные и не назначенные</a>
+            <div class="menu-sub__list"><a href="#" title="" class="menu-sub__item _active">Новые задания <span class="green">(15)</span></a><a href="#" title="" class="menu-sub__item">В работе (5)</a><a href="#" title="" class="menu-sub__item">На модерации</a><a href="#" title=""
+                class="menu-sub__item">Принятые</a>
             </div>
         </div>
         <div class="content">
-            <div class="semantist-tasks-add">
+            <div class="originator-tasks-add">
                 <div class="rowed-button-title">
                     <a href="#" title="" class="button _back"></a>
-                    <h1>Добавление</h1>
+                    <h1>Новое задание</h1>
                 </div>
-                <form method="" action="" class="semantist-tasks-add__wrapper">
-                    <div class="semantist-tasks-add__left">
-                        <div class="form-group">
-                            <label class="form-label">Ключевики</label>
-                            <textarea class="form-field _textarea _h245"></textarea>
+                <form method="" action="">
+                    <div class="originator-tasks-add-top">
+                        <div class="originator-tasks-add-top__column _left">
+                            <div class="originator-tasks-add-top__row _full">
+                                <div class="form-group">
+                                    <label class="form-label">Основной ключ</label>
+                                    <input type="text" value="Акт освидетельствования" class="form-field">
+                                </div>
+                            </div>
+                            <div class="originator-tasks-add-top__row _w150">
+                                <div class="form-group _inline">
+                                    <label class="form-label">Частота</label>
+                                    <input type="text" value="3" class="form-field">
+                                </div>
+                            </div>
+                            <div class="originator-tasks-add-top__row _w150">
+                                <div class="form-group _inline">
+                                    <label class="form-label">Точных вхождений</label>
+                                    <input type="text" value="3" class="form-field">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="originator-tasks-add-top__column _right">
+                            <div class="originator-tasks-add-top__row _half">
+                                <div class="form-group">
+                                    <label class="form-label">Сайт</label>
+                                    <div class="select _h40">
+                                        <select>
+                                            <option>Sovets.net</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="originator-tasks-add-top__row _half">
+                                <div class="form-group">
+                                    <label class="form-label">Тематика</label>
+                                    <div class="select _h40">
+                                        <select>
+                                            <option>Финансы</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="originator-tasks-add-top__row _w200">
+                                <div class="form-group _inline">
+                                    <label class="form-label">Кол-во знаков</label>
+                                    <input type="text" value="7000-8000" class="form-field">
+                                </div>
+                            </div>
+                            <div class="originator-tasks-add-top__row _w140">
+                                <div class="form-group _inline">
+                                    <label class="form-label">Цена</label>
+                                    <input type="text" value="8000" class="form-field">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="semantist-tasks-add__right">
-                        <div class="select _mb20">
-                            <select>
-                                <option>Тематика</option>
-                            </select>
+                    <div class="originator-tasks-add-center">
+                        <div class="form-group">
+                            <label class="form-label">Структура статьи</label>
+                            <textarea class="form-field _textarea _h410"></textarea>
                         </div>
-                        <div class="select _mb20">
-                            <select>
-                                <option>Сайт</option>
-                            </select>
+                    </div>
+                    <div class="originator-tasks-add-bottom">
+                        <div class="originator-tasks-add-bottom__column _left">
+                            <div class="form-group _count">
+                                <label class="form-label">Тематические слова</label>
+                                <textarea class="form-field _textarea _h410"></textarea>
+                                <div class="form-group__count">Всего: 530</div>
+                            </div>
+                            <input type="reset" value="Отменить" class="originator-tasks-add__button _cancel">
                         </div>
-                        <div class="select _mb20">
-                            <select>
-                                <option>Группа</option>
-                            </select>
+                        <div class="originator-tasks-add-bottom__column _right">
+                            <div class="form-group _count">
+                                <label class="form-label">Анкоры</label>
+                                <textarea class="form-field _textarea _h410"></textarea>
+                                <div class="form-group__count">Всего: 530</div>
+                            </div>
+                            <input type="reset" value="Сохранить" class="originator-tasks-add__button _save">
                         </div>
-                        <input type="submit" value="Сохранить" class="semantist-tasks-add__submit">
                     </div>
                 </form>
             </div>

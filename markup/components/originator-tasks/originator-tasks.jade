@@ -1,0 +1,70 @@
+mixin originator-tasks-add(data)
+  .originator-tasks-add
+    .rowed-button-title
+      a(href="#" title="").button._back
+      h1 Новое задание
+
+    form(method="" action="")
+      .originator-tasks-add-top
+        .originator-tasks-add-top__column._left
+          .originator-tasks-add-top__row._full
+            .form-group
+              label.form-label Основной ключ
+              input(type="text" value="Акт освидетельствования").form-field
+
+          .originator-tasks-add-top__row._w150
+            .form-group._inline
+              label.form-label Частота
+              input(type="text" value="3").form-field
+
+          .originator-tasks-add-top__row._w150
+            .form-group._inline
+              label.form-label Точных вхождений
+              input(type="text" value="3").form-field
+
+        .originator-tasks-add-top__column._right
+          .originator-tasks-add-top__row._half
+            .form-group
+              label.form-label Сайт
+              .select._h40
+                select
+                  option Sovets.net
+
+          .originator-tasks-add-top__row._half
+            .form-group
+              label.form-label Тематика
+              .select._h40
+                select
+                  option Финансы
+
+          .originator-tasks-add-top__row._w200
+            .form-group._inline
+              label.form-label Кол-во знаков
+              input(type="text" value="7000-8000").form-field
+
+          .originator-tasks-add-top__row._w140
+            .form-group._inline
+              label.form-label Цена
+              input(type="text" value="8000").form-field
+
+      .originator-tasks-add-center
+        .form-group
+          label.form-label Структура статьи
+          textarea.form-field._textarea._h410
+
+      .originator-tasks-add-bottom
+        .originator-tasks-add-bottom__column._left
+          .form-group._count
+            label.form-label Тематические слова
+            textarea.form-field._textarea._h410
+            .form-group__count Всего: 530
+
+          input(type="reset" value="Отменить").originator-tasks-add__button._cancel
+
+        .originator-tasks-add-bottom__column._right
+          .form-group._count
+            label.form-label Анкоры
+            textarea.form-field._textarea._h410
+            .form-group__count Всего: 530
+
+          input(type="reset" value="Сохранить").originator-tasks-add__button._save

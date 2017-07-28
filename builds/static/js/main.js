@@ -2257,6 +2257,7 @@ $('.mask, .modal__close').click(function () {
 
 
 
+
 $('.jsOpen').on('click', function () {
   var $this = $(this);
 

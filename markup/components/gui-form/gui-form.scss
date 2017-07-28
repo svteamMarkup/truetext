@@ -13,6 +13,9 @@
   &._h245 {
     height: 245px;
   }
+  &._h410 {
+    height: 410px;
+  }
 }
 
 .form-label {
@@ -50,14 +53,41 @@
   &._mb20 {
     margin-bottom: 20px;
   }
+  &._h40 {
+    select {
+      height: 40px;
+    }
+  }
 }
 
 .form-group {
+  position: relative;
+
+  width: 100%;
   .form-label {
     display: block;
 
     margin-bottom: 10px;
 
     text-transform: uppercase;
+  }
+  &._inline {
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__count {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 10px;
+
+    color: $mako;
+    background-color: $geyser;
   }
 }

@@ -1,0 +1,13 @@
+extends ./layout.jade
+
+block header
+  +header-originator._submenu
+  +menu-originator-sub._originator
+
+block content
+  +originator-tasks-add
+
+block footer
+  +footer._inside
+  +modal-take-task
+  .mask

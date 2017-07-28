@@ -414,7 +414,7 @@ blockquote {
   font-style: normal;
 }
 
-.fa, .button._create:before, ._create.form-select-date__submit:before, ._create.modal-take-task__submit:before, ._create.profile-photo__change:before, ._create.semantist-tasks-add__submit:before, .button._back:before, ._back.form-select-date__submit:before, ._back.modal-take-task__submit:before, ._back.profile-photo__change:before, ._back.semantist-tasks-add__submit:before, .button._answer:before, ._answer.form-select-date__submit:before, ._answer.modal-take-task__submit:before, ._answer.profile-photo__change:before, ._answer.semantist-tasks-add__submit:before, .button._drop:before, ._drop.form-select-date__submit:before, ._drop.modal-take-task__submit:before, ._drop.profile-photo__change:before, ._drop.semantist-tasks-add__submit:before, .button._redact:before, ._redact.form-select-date__submit:before, ._redact.modal-take-task__submit:before, ._redact.profile-photo__change:before, ._redact.semantist-tasks-add__submit:before, .button._send:before, ._send.form-select-date__submit:before, ._send.modal-take-task__submit:before, ._send.profile-photo__change:before, ._send.semantist-tasks-add__submit:before, .button._close:before, ._close.form-select-date__submit:before, ._close.modal-take-task__submit:before, ._close.profile-photo__change:before, ._close.semantist-tasks-add__submit:before, .button._delete:before, ._delete.form-select-date__submit:before, ._delete.modal-take-task__submit:before, ._delete.profile-photo__change:before, ._delete.semantist-tasks-add__submit:before, .button._view:before, ._view.form-select-date__submit:before, ._view.modal-take-task__submit:before, ._view.profile-photo__change:before, ._view.semantist-tasks-add__submit:before, .button._take:before, ._take.form-select-date__submit:before, ._take.modal-take-task__submit:before, ._take.profile-photo__change:before, ._take.semantist-tasks-add__submit:before, .button._link:before, ._link.form-select-date__submit:before, ._link.modal-take-task__submit:before, ._link.profile-photo__change:before, ._link.semantist-tasks-add__submit:before, .form-search__submit:before, .select:before, .logined__rate:before, .menu__item:before, .modal-take-task__submit:before, .profile-photo__change:before, .rules-list-item:before, .top-main-header__login:before {
+.fa, .button._create:before, ._create.form-select-date__submit:before, ._create.modal-take-task__submit:before, ._create.originator-tasks-add__button:before, ._create.profile-photo__change:before, ._create.semantist-tasks-add__submit:before, .button._back:before, ._back.form-select-date__submit:before, ._back.modal-take-task__submit:before, ._back.originator-tasks-add__button:before, ._back.profile-photo__change:before, ._back.semantist-tasks-add__submit:before, .button._answer:before, ._answer.form-select-date__submit:before, ._answer.modal-take-task__submit:before, ._answer.originator-tasks-add__button:before, ._answer.profile-photo__change:before, ._answer.semantist-tasks-add__submit:before, .button._drop:before, ._drop.form-select-date__submit:before, ._drop.modal-take-task__submit:before, ._drop.originator-tasks-add__button:before, ._drop.profile-photo__change:before, ._drop.semantist-tasks-add__submit:before, .button._redact:before, ._redact.form-select-date__submit:before, ._redact.modal-take-task__submit:before, ._redact.originator-tasks-add__button:before, ._redact.profile-photo__change:before, ._redact.semantist-tasks-add__submit:before, .button._send:before, ._send.form-select-date__submit:before, ._send.modal-take-task__submit:before, ._send.originator-tasks-add__button:before, ._send.profile-photo__change:before, ._send.semantist-tasks-add__submit:before, .button._close:before, ._close.form-select-date__submit:before, ._close.modal-take-task__submit:before, ._close.originator-tasks-add__button:before, ._close.profile-photo__change:before, ._close.semantist-tasks-add__submit:before, .button._delete:before, ._delete.form-select-date__submit:before, ._delete.modal-take-task__submit:before, ._delete.originator-tasks-add__button:before, ._delete.profile-photo__change:before, ._delete.semantist-tasks-add__submit:before, .button._view:before, ._view.form-select-date__submit:before, ._view.modal-take-task__submit:before, ._view.originator-tasks-add__button:before, ._view.profile-photo__change:before, ._view.semantist-tasks-add__submit:before, .button._take:before, ._take.form-select-date__submit:before, ._take.modal-take-task__submit:before, ._take.originator-tasks-add__button:before, ._take.profile-photo__change:before, ._take.semantist-tasks-add__submit:before, .button._link:before, ._link.form-select-date__submit:before, ._link.modal-take-task__submit:before, ._link.originator-tasks-add__button:before, ._link.profile-photo__change:before, ._link.semantist-tasks-add__submit:before, .form-search__submit:before, .select:before, .logined__rate:before, .menu__item:before, .modal-take-task__submit:before, .profile-photo__change:before, .rules-list-item:before, .top-main-header__login:before {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -487,11 +487,11 @@ blockquote {
   float: right;
 }
 
-.fa.fa-pull-left, .fa-pull-left.button._create:before, .fa-pull-left._create.form-select-date__submit:before, .fa-pull-left._create.semantist-tasks-add__submit:before, .fa-pull-left.button._back:before, .fa-pull-left._back.form-select-date__submit:before, .fa-pull-left._back.semantist-tasks-add__submit:before, .fa-pull-left.button._answer:before, .fa-pull-left._answer.form-select-date__submit:before, .fa-pull-left._answer.semantist-tasks-add__submit:before, .fa-pull-left.button._drop:before, .fa-pull-left._drop.form-select-date__submit:before, .fa-pull-left._drop.semantist-tasks-add__submit:before, .fa-pull-left.button._redact:before, .fa-pull-left._redact.form-select-date__submit:before, .fa-pull-left._redact.semantist-tasks-add__submit:before, .fa-pull-left.button._send:before, .fa-pull-left._send.form-select-date__submit:before, .fa-pull-left._send.semantist-tasks-add__submit:before, .fa-pull-left.button._close:before, .fa-pull-left._close.form-select-date__submit:before, .fa-pull-left._close.semantist-tasks-add__submit:before, .fa-pull-left.button._delete:before, .fa-pull-left._delete.form-select-date__submit:before, .fa-pull-left._delete.semantist-tasks-add__submit:before, .fa-pull-left.button._view:before, .fa-pull-left._view.form-select-date__submit:before, .fa-pull-left._view.semantist-tasks-add__submit:before, .fa-pull-left.button._take:before, .fa-pull-left._take.form-select-date__submit:before, .fa-pull-left._take.semantist-tasks-add__submit:before, .fa-pull-left.button._link:before, .fa-pull-left._link.form-select-date__submit:before, .fa-pull-left._link.semantist-tasks-add__submit:before, .fa-pull-left.form-search__submit:before, .fa-pull-left.select:before, .fa-pull-left.logined__rate:before, .fa-pull-left.menu__item:before, .fa-pull-left.modal-take-task__submit:before, .fa-pull-left.profile-photo__change:before, .fa-pull-left.rules-list-item:before, .fa-pull-left.top-main-header__login:before {
+.fa.fa-pull-left, .fa-pull-left.button._create:before, .fa-pull-left._create.form-select-date__submit:before, .fa-pull-left._create.originator-tasks-add__button:before, .fa-pull-left._create.semantist-tasks-add__submit:before, .fa-pull-left.button._back:before, .fa-pull-left._back.form-select-date__submit:before, .fa-pull-left._back.originator-tasks-add__button:before, .fa-pull-left._back.semantist-tasks-add__submit:before, .fa-pull-left.button._answer:before, .fa-pull-left._answer.form-select-date__submit:before, .fa-pull-left._answer.originator-tasks-add__button:before, .fa-pull-left._answer.semantist-tasks-add__submit:before, .fa-pull-left.button._drop:before, .fa-pull-left._drop.form-select-date__submit:before, .fa-pull-left._drop.originator-tasks-add__button:before, .fa-pull-left._drop.semantist-tasks-add__submit:before, .fa-pull-left.button._redact:before, .fa-pull-left._redact.form-select-date__submit:before, .fa-pull-left._redact.originator-tasks-add__button:before, .fa-pull-left._redact.semantist-tasks-add__submit:before, .fa-pull-left.button._send:before, .fa-pull-left._send.form-select-date__submit:before, .fa-pull-left._send.originator-tasks-add__button:before, .fa-pull-left._send.semantist-tasks-add__submit:before, .fa-pull-left.button._close:before, .fa-pull-left._close.form-select-date__submit:before, .fa-pull-left._close.originator-tasks-add__button:before, .fa-pull-left._close.semantist-tasks-add__submit:before, .fa-pull-left.button._delete:before, .fa-pull-left._delete.form-select-date__submit:before, .fa-pull-left._delete.originator-tasks-add__button:before, .fa-pull-left._delete.semantist-tasks-add__submit:before, .fa-pull-left.button._view:before, .fa-pull-left._view.form-select-date__submit:before, .fa-pull-left._view.originator-tasks-add__button:before, .fa-pull-left._view.semantist-tasks-add__submit:before, .fa-pull-left.button._take:before, .fa-pull-left._take.form-select-date__submit:before, .fa-pull-left._take.originator-tasks-add__button:before, .fa-pull-left._take.semantist-tasks-add__submit:before, .fa-pull-left.button._link:before, .fa-pull-left._link.form-select-date__submit:before, .fa-pull-left._link.originator-tasks-add__button:before, .fa-pull-left._link.semantist-tasks-add__submit:before, .fa-pull-left.form-search__submit:before, .fa-pull-left.select:before, .fa-pull-left.logined__rate:before, .fa-pull-left.menu__item:before, .fa-pull-left.modal-take-task__submit:before, .fa-pull-left.profile-photo__change:before, .fa-pull-left.rules-list-item:before, .fa-pull-left.top-main-header__login:before {
   margin-right: .3em;
 }
 
-.fa.fa-pull-right, .fa-pull-right.button._create:before, .fa-pull-right._create.form-select-date__submit:before, .fa-pull-right._create.semantist-tasks-add__submit:before, .fa-pull-right.button._back:before, .fa-pull-right._back.form-select-date__submit:before, .fa-pull-right._back.semantist-tasks-add__submit:before, .fa-pull-right.button._answer:before, .fa-pull-right._answer.form-select-date__submit:before, .fa-pull-right._answer.semantist-tasks-add__submit:before, .fa-pull-right.button._drop:before, .fa-pull-right._drop.form-select-date__submit:before, .fa-pull-right._drop.semantist-tasks-add__submit:before, .fa-pull-right.button._redact:before, .fa-pull-right._redact.form-select-date__submit:before, .fa-pull-right._redact.semantist-tasks-add__submit:before, .fa-pull-right.button._send:before, .fa-pull-right._send.form-select-date__submit:before, .fa-pull-right._send.semantist-tasks-add__submit:before, .fa-pull-right.button._close:before, .fa-pull-right._close.form-select-date__submit:before, .fa-pull-right._close.semantist-tasks-add__submit:before, .fa-pull-right.button._delete:before, .fa-pull-right._delete.form-select-date__submit:before, .fa-pull-right._delete.semantist-tasks-add__submit:before, .fa-pull-right.button._view:before, .fa-pull-right._view.form-select-date__submit:before, .fa-pull-right._view.semantist-tasks-add__submit:before, .fa-pull-right.button._take:before, .fa-pull-right._take.form-select-date__submit:before, .fa-pull-right._take.semantist-tasks-add__submit:before, .fa-pull-right.button._link:before, .fa-pull-right._link.form-select-date__submit:before, .fa-pull-right._link.semantist-tasks-add__submit:before, .fa-pull-right.form-search__submit:before, .fa-pull-right.select:before, .fa-pull-right.logined__rate:before, .fa-pull-right.menu__item:before, .fa-pull-right.modal-take-task__submit:before, .fa-pull-right.profile-photo__change:before, .fa-pull-right.rules-list-item:before, .fa-pull-right.top-main-header__login:before {
+.fa.fa-pull-right, .fa-pull-right.button._create:before, .fa-pull-right._create.form-select-date__submit:before, .fa-pull-right._create.originator-tasks-add__button:before, .fa-pull-right._create.semantist-tasks-add__submit:before, .fa-pull-right.button._back:before, .fa-pull-right._back.form-select-date__submit:before, .fa-pull-right._back.originator-tasks-add__button:before, .fa-pull-right._back.semantist-tasks-add__submit:before, .fa-pull-right.button._answer:before, .fa-pull-right._answer.form-select-date__submit:before, .fa-pull-right._answer.originator-tasks-add__button:before, .fa-pull-right._answer.semantist-tasks-add__submit:before, .fa-pull-right.button._drop:before, .fa-pull-right._drop.form-select-date__submit:before, .fa-pull-right._drop.originator-tasks-add__button:before, .fa-pull-right._drop.semantist-tasks-add__submit:before, .fa-pull-right.button._redact:before, .fa-pull-right._redact.form-select-date__submit:before, .fa-pull-right._redact.originator-tasks-add__button:before, .fa-pull-right._redact.semantist-tasks-add__submit:before, .fa-pull-right.button._send:before, .fa-pull-right._send.form-select-date__submit:before, .fa-pull-right._send.originator-tasks-add__button:before, .fa-pull-right._send.semantist-tasks-add__submit:before, .fa-pull-right.button._close:before, .fa-pull-right._close.form-select-date__submit:before, .fa-pull-right._close.originator-tasks-add__button:before, .fa-pull-right._close.semantist-tasks-add__submit:before, .fa-pull-right.button._delete:before, .fa-pull-right._delete.form-select-date__submit:before, .fa-pull-right._delete.originator-tasks-add__button:before, .fa-pull-right._delete.semantist-tasks-add__submit:before, .fa-pull-right.button._view:before, .fa-pull-right._view.form-select-date__submit:before, .fa-pull-right._view.originator-tasks-add__button:before, .fa-pull-right._view.semantist-tasks-add__submit:before, .fa-pull-right.button._take:before, .fa-pull-right._take.form-select-date__submit:before, .fa-pull-right._take.originator-tasks-add__button:before, .fa-pull-right._take.semantist-tasks-add__submit:before, .fa-pull-right.button._link:before, .fa-pull-right._link.form-select-date__submit:before, .fa-pull-right._link.originator-tasks-add__button:before, .fa-pull-right._link.semantist-tasks-add__submit:before, .fa-pull-right.form-search__submit:before, .fa-pull-right.select:before, .fa-pull-right.logined__rate:before, .fa-pull-right.menu__item:before, .fa-pull-right.modal-take-task__submit:before, .fa-pull-right.profile-photo__change:before, .fa-pull-right.rules-list-item:before, .fa-pull-right.top-main-header__login:before {
   margin-left: .3em;
 }
 
@@ -504,11 +504,11 @@ blockquote {
   float: left;
 }
 
-.fa.pull-left, .pull-left.button._create:before, .pull-left._create.form-select-date__submit:before, .pull-left._create.semantist-tasks-add__submit:before, .pull-left.button._back:before, .pull-left._back.form-select-date__submit:before, .pull-left._back.semantist-tasks-add__submit:before, .pull-left.button._answer:before, .pull-left._answer.form-select-date__submit:before, .pull-left._answer.semantist-tasks-add__submit:before, .pull-left.button._drop:before, .pull-left._drop.form-select-date__submit:before, .pull-left._drop.semantist-tasks-add__submit:before, .pull-left.button._redact:before, .pull-left._redact.form-select-date__submit:before, .pull-left._redact.semantist-tasks-add__submit:before, .pull-left.button._send:before, .pull-left._send.form-select-date__submit:before, .pull-left._send.semantist-tasks-add__submit:before, .pull-left.button._close:before, .pull-left._close.form-select-date__submit:before, .pull-left._close.semantist-tasks-add__submit:before, .pull-left.button._delete:before, .pull-left._delete.form-select-date__submit:before, .pull-left._delete.semantist-tasks-add__submit:before, .pull-left.button._view:before, .pull-left._view.form-select-date__submit:before, .pull-left._view.semantist-tasks-add__submit:before, .pull-left.button._take:before, .pull-left._take.form-select-date__submit:before, .pull-left._take.semantist-tasks-add__submit:before, .pull-left.button._link:before, .pull-left._link.form-select-date__submit:before, .pull-left._link.semantist-tasks-add__submit:before, .pull-left.form-search__submit:before, .pull-left.select:before, .pull-left.logined__rate:before, .pull-left.menu__item:before, .pull-left.modal-take-task__submit:before, .pull-left.profile-photo__change:before, .pull-left.rules-list-item:before, .pull-left.top-main-header__login:before {
+.fa.pull-left, .pull-left.button._create:before, .pull-left._create.form-select-date__submit:before, .pull-left._create.originator-tasks-add__button:before, .pull-left._create.semantist-tasks-add__submit:before, .pull-left.button._back:before, .pull-left._back.form-select-date__submit:before, .pull-left._back.originator-tasks-add__button:before, .pull-left._back.semantist-tasks-add__submit:before, .pull-left.button._answer:before, .pull-left._answer.form-select-date__submit:before, .pull-left._answer.originator-tasks-add__button:before, .pull-left._answer.semantist-tasks-add__submit:before, .pull-left.button._drop:before, .pull-left._drop.form-select-date__submit:before, .pull-left._drop.originator-tasks-add__button:before, .pull-left._drop.semantist-tasks-add__submit:before, .pull-left.button._redact:before, .pull-left._redact.form-select-date__submit:before, .pull-left._redact.originator-tasks-add__button:before, .pull-left._redact.semantist-tasks-add__submit:before, .pull-left.button._send:before, .pull-left._send.form-select-date__submit:before, .pull-left._send.originator-tasks-add__button:before, .pull-left._send.semantist-tasks-add__submit:before, .pull-left.button._close:before, .pull-left._close.form-select-date__submit:before, .pull-left._close.originator-tasks-add__button:before, .pull-left._close.semantist-tasks-add__submit:before, .pull-left.button._delete:before, .pull-left._delete.form-select-date__submit:before, .pull-left._delete.originator-tasks-add__button:before, .pull-left._delete.semantist-tasks-add__submit:before, .pull-left.button._view:before, .pull-left._view.form-select-date__submit:before, .pull-left._view.originator-tasks-add__button:before, .pull-left._view.semantist-tasks-add__submit:before, .pull-left.button._take:before, .pull-left._take.form-select-date__submit:before, .pull-left._take.originator-tasks-add__button:before, .pull-left._take.semantist-tasks-add__submit:before, .pull-left.button._link:before, .pull-left._link.form-select-date__submit:before, .pull-left._link.originator-tasks-add__button:before, .pull-left._link.semantist-tasks-add__submit:before, .pull-left.form-search__submit:before, .pull-left.select:before, .pull-left.logined__rate:before, .pull-left.menu__item:before, .pull-left.modal-take-task__submit:before, .pull-left.profile-photo__change:before, .pull-left.rules-list-item:before, .pull-left.top-main-header__login:before {
   margin-right: .3em;
 }
 
-.fa.pull-right, .pull-right.button._create:before, .pull-right._create.form-select-date__submit:before, .pull-right._create.semantist-tasks-add__submit:before, .pull-right.button._back:before, .pull-right._back.form-select-date__submit:before, .pull-right._back.semantist-tasks-add__submit:before, .pull-right.button._answer:before, .pull-right._answer.form-select-date__submit:before, .pull-right._answer.semantist-tasks-add__submit:before, .pull-right.button._drop:before, .pull-right._drop.form-select-date__submit:before, .pull-right._drop.semantist-tasks-add__submit:before, .pull-right.button._redact:before, .pull-right._redact.form-select-date__submit:before, .pull-right._redact.semantist-tasks-add__submit:before, .pull-right.button._send:before, .pull-right._send.form-select-date__submit:before, .pull-right._send.semantist-tasks-add__submit:before, .pull-right.button._close:before, .pull-right._close.form-select-date__submit:before, .pull-right._close.semantist-tasks-add__submit:before, .pull-right.button._delete:before, .pull-right._delete.form-select-date__submit:before, .pull-right._delete.semantist-tasks-add__submit:before, .pull-right.button._view:before, .pull-right._view.form-select-date__submit:before, .pull-right._view.semantist-tasks-add__submit:before, .pull-right.button._take:before, .pull-right._take.form-select-date__submit:before, .pull-right._take.semantist-tasks-add__submit:before, .pull-right.button._link:before, .pull-right._link.form-select-date__submit:before, .pull-right._link.semantist-tasks-add__submit:before, .pull-right.form-search__submit:before, .pull-right.select:before, .pull-right.logined__rate:before, .pull-right.menu__item:before, .pull-right.modal-take-task__submit:before, .pull-right.profile-photo__change:before, .pull-right.rules-list-item:before, .pull-right.top-main-header__login:before {
+.fa.pull-right, .pull-right.button._create:before, .pull-right._create.form-select-date__submit:before, .pull-right._create.originator-tasks-add__button:before, .pull-right._create.semantist-tasks-add__submit:before, .pull-right.button._back:before, .pull-right._back.form-select-date__submit:before, .pull-right._back.originator-tasks-add__button:before, .pull-right._back.semantist-tasks-add__submit:before, .pull-right.button._answer:before, .pull-right._answer.form-select-date__submit:before, .pull-right._answer.originator-tasks-add__button:before, .pull-right._answer.semantist-tasks-add__submit:before, .pull-right.button._drop:before, .pull-right._drop.form-select-date__submit:before, .pull-right._drop.originator-tasks-add__button:before, .pull-right._drop.semantist-tasks-add__submit:before, .pull-right.button._redact:before, .pull-right._redact.form-select-date__submit:before, .pull-right._redact.originator-tasks-add__button:before, .pull-right._redact.semantist-tasks-add__submit:before, .pull-right.button._send:before, .pull-right._send.form-select-date__submit:before, .pull-right._send.originator-tasks-add__button:before, .pull-right._send.semantist-tasks-add__submit:before, .pull-right.button._close:before, .pull-right._close.form-select-date__submit:before, .pull-right._close.originator-tasks-add__button:before, .pull-right._close.semantist-tasks-add__submit:before, .pull-right.button._delete:before, .pull-right._delete.form-select-date__submit:before, .pull-right._delete.originator-tasks-add__button:before, .pull-right._delete.semantist-tasks-add__submit:before, .pull-right.button._view:before, .pull-right._view.form-select-date__submit:before, .pull-right._view.originator-tasks-add__button:before, .pull-right._view.semantist-tasks-add__submit:before, .pull-right.button._take:before, .pull-right._take.form-select-date__submit:before, .pull-right._take.originator-tasks-add__button:before, .pull-right._take.semantist-tasks-add__submit:before, .pull-right.button._link:before, .pull-right._link.form-select-date__submit:before, .pull-right._link.originator-tasks-add__button:before, .pull-right._link.semantist-tasks-add__submit:before, .pull-right.form-search__submit:before, .pull-right.select:before, .pull-right.logined__rate:before, .pull-right.menu__item:before, .pull-right.modal-take-task__submit:before, .pull-right.profile-photo__change:before, .pull-right.rules-list-item:before, .pull-right.top-main-header__login:before {
   margin-left: .3em;
 }
 
@@ -662,7 +662,7 @@ blockquote {
   content: "\f00b";
 }
 
-.fa-check:before, .button._take:before, ._take.form-select-date__submit:before, ._take.modal-take-task__submit:before, ._take.profile-photo__change:before, ._take.semantist-tasks-add__submit:before, .modal-take-task__submit:before {
+.fa-check:before, .button._take:before, ._take.form-select-date__submit:before, ._take.modal-take-task__submit:before, ._take.originator-tasks-add__button:before, ._take.profile-photo__change:before, ._take.semantist-tasks-add__submit:before, .modal-take-task__submit:before {
   content: "\f00c";
 }
 
@@ -694,7 +694,7 @@ blockquote {
   content: "\f013";
 }
 
-.fa-trash-o:before, .button._drop:before, ._drop.form-select-date__submit:before, ._drop.modal-take-task__submit:before, ._drop.profile-photo__change:before, ._drop.semantist-tasks-add__submit:before, .button._delete:before, ._delete.form-select-date__submit:before, ._delete.modal-take-task__submit:before, ._delete.profile-photo__change:before, ._delete.semantist-tasks-add__submit:before {
+.fa-trash-o:before, .button._drop:before, ._drop.form-select-date__submit:before, ._drop.modal-take-task__submit:before, ._drop.originator-tasks-add__button:before, ._drop.profile-photo__change:before, ._drop.semantist-tasks-add__submit:before, .button._delete:before, ._delete.form-select-date__submit:before, ._delete.modal-take-task__submit:before, ._delete.originator-tasks-add__button:before, ._delete.profile-photo__change:before, ._delete.semantist-tasks-add__submit:before {
   content: "\f014";
 }
 
@@ -747,7 +747,7 @@ blockquote {
   content: "\f022";
 }
 
-.fa-lock:before, .button._close:before, ._close.form-select-date__submit:before, ._close.modal-take-task__submit:before, ._close.profile-photo__change:before, ._close.semantist-tasks-add__submit:before {
+.fa-lock:before, .button._close:before, ._close.form-select-date__submit:before, ._close.modal-take-task__submit:before, ._close.originator-tasks-add__button:before, ._close.profile-photo__change:before, ._close.semantist-tasks-add__submit:before {
   content: "\f023";
 }
 
@@ -862,7 +862,7 @@ blockquote {
   content: "\f03e";
 }
 
-.fa-pencil:before, .button._answer:before, ._answer.form-select-date__submit:before, ._answer.modal-take-task__submit:before, ._answer.profile-photo__change:before, ._answer.semantist-tasks-add__submit:before, .button._redact:before, ._redact.form-select-date__submit:before, ._redact.modal-take-task__submit:before, ._redact.profile-photo__change:before, ._redact.semantist-tasks-add__submit:before {
+.fa-pencil:before, .button._answer:before, ._answer.form-select-date__submit:before, ._answer.modal-take-task__submit:before, ._answer.originator-tasks-add__button:before, ._answer.profile-photo__change:before, ._answer.semantist-tasks-add__submit:before, .button._redact:before, ._redact.form-select-date__submit:before, ._redact.modal-take-task__submit:before, ._redact.originator-tasks-add__button:before, ._redact.profile-photo__change:before, ._redact.semantist-tasks-add__submit:before {
   content: "\f040";
 }
 
@@ -983,7 +983,7 @@ blockquote {
   content: "\f05e";
 }
 
-.fa-arrow-left:before, .button._back:before, ._back.form-select-date__submit:before, ._back.modal-take-task__submit:before, ._back.profile-photo__change:before, ._back.semantist-tasks-add__submit:before {
+.fa-arrow-left:before, .button._back:before, ._back.form-select-date__submit:before, ._back.modal-take-task__submit:before, ._back.originator-tasks-add__button:before, ._back.profile-photo__change:before, ._back.semantist-tasks-add__submit:before {
   content: "\f060";
 }
 
@@ -1065,7 +1065,7 @@ blockquote {
   content: "\f074";
 }
 
-.fa-comment:before, .button._create:before, ._create.form-select-date__submit:before, ._create.modal-take-task__submit:before, ._create.profile-photo__change:before, ._create.semantist-tasks-add__submit:before, .menu__item._tickets:before {
+.fa-comment:before, .button._create:before, ._create.form-select-date__submit:before, ._create.modal-take-task__submit:before, ._create.originator-tasks-add__button:before, ._create.profile-photo__change:before, ._create.semantist-tasks-add__submit:before, .menu__item._tickets:before {
   content: "\f075";
 }
 
@@ -1313,6 +1313,7 @@ blockquote {
 .button._link:before,
 ._link.form-select-date__submit:before,
 ._link.modal-take-task__submit:before,
+._link.originator-tasks-add__button:before,
 ._link.profile-photo__change:before,
 ._link.semantist-tasks-add__submit:before {
   content: "\f0c1";
@@ -1527,7 +1528,7 @@ blockquote {
   content: "\f0f5";
 }
 
-.fa-file-text-o:before, .button._view:before, ._view.form-select-date__submit:before, ._view.modal-take-task__submit:before, ._view.profile-photo__change:before, ._view.semantist-tasks-add__submit:before {
+.fa-file-text-o:before, .button._view:before, ._view.form-select-date__submit:before, ._view.modal-take-task__submit:before, ._view.originator-tasks-add__button:before, ._view.profile-photo__change:before, ._view.semantist-tasks-add__submit:before {
   content: "\f0f6";
 }
 
@@ -2415,6 +2416,7 @@ blockquote {
 .button._send:before,
 ._send.form-select-date__submit:before,
 ._send.modal-take-task__submit:before,
+._send.originator-tasks-add__button:before,
 ._send.profile-photo__change:before,
 ._send.semantist-tasks-add__submit:before {
   content: "\f1d8";
@@ -3475,7 +3477,7 @@ blockquote {
   src: url("../fonts/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Italic.woff") format("woff"), url("../fonts/Lato-Italic.svg#custom_font") format("svg");
 }
 
-.wrapper, .admin-tasks, .advantages, .finance, .footer__wrapper, .header__wrapper, .menu-sub__list, .news-list, .profile, .rules-list, .semantist-tasks-add, .tickets-list, .tickets-view, .top-main-header, .user-tasks {
+.wrapper, .admin-tasks, .advantages, .finance, .footer__wrapper, .header__wrapper, .menu-sub__list, .news-list, .originator-tasks-add, .profile, .rules-list, .semantist-tasks-add, .tickets-list, .tickets-view, .top-main-header, .user-tasks {
   position: relative;
   width: 100%;
   min-width: 1024px;
@@ -3513,7 +3515,7 @@ h1 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.button, .form-select-date__submit, .modal-take-task__submit, .profile-photo__change, .semantist-tasks-add__submit {
+.button, .form-select-date__submit, .modal-take-task__submit, .originator-tasks-add__button, .profile-photo__change, .semantist-tasks-add__submit {
   font-size: 12px;
   position: relative;
   display: inline-block;
@@ -3524,36 +3526,36 @@ h1 {
   border: 0;
 }
 
-.button._green, ._green.form-select-date__submit, .modal-take-task__submit, ._green.profile-photo__change, .semantist-tasks-add__submit {
+.button._green, ._green.form-select-date__submit, .modal-take-task__submit, ._green.originator-tasks-add__button, .originator-tasks-add__button._save, ._green.profile-photo__change, .semantist-tasks-add__submit {
   color: #fff;
   background-color: #7bc22c;
 }
 
-.button._green:hover, ._green.form-select-date__submit:hover, .modal-take-task__submit:hover, ._green.profile-photo__change:hover, .semantist-tasks-add__submit:hover {
+.button._green:hover, ._green.form-select-date__submit:hover, .modal-take-task__submit:hover, ._green.originator-tasks-add__button:hover, .originator-tasks-add__button._save:hover, ._green.profile-photo__change:hover, .semantist-tasks-add__submit:hover {
   cursor: pointer;
   color: #fff;
   background-color: #8cd33d;
 }
 
-.button._blue, .form-select-date__submit, ._blue.modal-take-task__submit, .profile-photo__change, ._blue.semantist-tasks-add__submit {
+.button._blue, .form-select-date__submit, ._blue.modal-take-task__submit, ._blue.originator-tasks-add__button, .originator-tasks-add__button._cancel, .profile-photo__change, ._blue.semantist-tasks-add__submit {
   border: 1px solid #2f9ce5;
   background-color: #fff;
 }
 
-.button._blue:hover, .form-select-date__submit:hover, ._blue.modal-take-task__submit:hover, .profile-photo__change:hover, ._blue.semantist-tasks-add__submit:hover {
+.button._blue:hover, .form-select-date__submit:hover, ._blue.modal-take-task__submit:hover, ._blue.originator-tasks-add__button:hover, .originator-tasks-add__button._cancel:hover, .profile-photo__change:hover, ._blue.semantist-tasks-add__submit:hover {
   cursor: pointer;
   color: #fff;
   background-color: #2f9ce5;
 }
 
-.button._create, ._create.form-select-date__submit, ._create.modal-take-task__submit, ._create.profile-photo__change, ._create.semantist-tasks-add__submit {
+.button._create, ._create.form-select-date__submit, ._create.modal-take-task__submit, ._create.originator-tasks-add__button, ._create.profile-photo__change, ._create.semantist-tasks-add__submit {
   position: absolute;
   top: 5px;
   right: 0;
   padding: 8px 20px 8px 32px;
 }
 
-.button._create:before, ._create.form-select-date__submit:before, ._create.modal-take-task__submit:before, ._create.profile-photo__change:before, ._create.semantist-tasks-add__submit:before {
+.button._create:before, ._create.form-select-date__submit:before, ._create.modal-take-task__submit:before, ._create.originator-tasks-add__button:before, ._create.profile-photo__change:before, ._create.semantist-tasks-add__submit:before {
   position: absolute;
   left: 10px;
   position: absolute;
@@ -3562,7 +3564,7 @@ h1 {
           transform: translateY(-50%);
 }
 
-.button._back, ._back.form-select-date__submit, ._back.modal-take-task__submit, ._back.profile-photo__change, ._back.semantist-tasks-add__submit {
+.button._back, ._back.form-select-date__submit, ._back.modal-take-task__submit, ._back.originator-tasks-add__button, ._back.profile-photo__change, ._back.semantist-tasks-add__submit {
   font-size: 18px;
   position: relative;
   width: 35px;
@@ -3571,7 +3573,7 @@ h1 {
   background-color: #fff;
 }
 
-.button._back:before, ._back.form-select-date__submit:before, ._back.modal-take-task__submit:before, ._back.profile-photo__change:before, ._back.semantist-tasks-add__submit:before {
+.button._back:before, ._back.form-select-date__submit:before, ._back.modal-take-task__submit:before, ._back.originator-tasks-add__button:before, ._back.profile-photo__change:before, ._back.semantist-tasks-add__submit:before {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3579,69 +3581,69 @@ h1 {
           transform: translate(-50%, -50%);
 }
 
-.button._back:hover, ._back.form-select-date__submit:hover, ._back.modal-take-task__submit:hover, ._back.profile-photo__change:hover, ._back.semantist-tasks-add__submit:hover {
+.button._back:hover, ._back.form-select-date__submit:hover, ._back.modal-take-task__submit:hover, ._back.originator-tasks-add__button:hover, ._back.profile-photo__change:hover, ._back.semantist-tasks-add__submit:hover {
   color: #fff;
   background-color: #2f9ce5;
 }
 
-.button._answer, ._answer.form-select-date__submit, ._answer.modal-take-task__submit, ._answer.profile-photo__change, ._answer.semantist-tasks-add__submit {
+.button._answer, ._answer.form-select-date__submit, ._answer.modal-take-task__submit, ._answer.originator-tasks-add__button, ._answer.profile-photo__change, ._answer.semantist-tasks-add__submit {
   padding: 5px 10px 5px 28px;
 }
 
-.button._answer:before, ._answer.form-select-date__submit:before, ._answer.modal-take-task__submit:before, ._answer.profile-photo__change:before, ._answer.semantist-tasks-add__submit:before {
+.button._answer:before, ._answer.form-select-date__submit:before, ._answer.modal-take-task__submit:before, ._answer.originator-tasks-add__button:before, ._answer.profile-photo__change:before, ._answer.semantist-tasks-add__submit:before {
   font-size: 14px;
   position: absolute;
   left: 10px;
 }
 
-.button._drop, ._drop.form-select-date__submit, ._drop.modal-take-task__submit, ._drop.profile-photo__change, ._drop.semantist-tasks-add__submit {
+.button._drop, ._drop.form-select-date__submit, ._drop.modal-take-task__submit, ._drop.originator-tasks-add__button, ._drop.profile-photo__change, ._drop.semantist-tasks-add__submit {
   margin-left: 10px;
   padding: 3px 5px 2px;
 }
 
-.button._drop:before, ._drop.form-select-date__submit:before, ._drop.modal-take-task__submit:before, ._drop.profile-photo__change:before, ._drop.semantist-tasks-add__submit:before {
+.button._drop:before, ._drop.form-select-date__submit:before, ._drop.modal-take-task__submit:before, ._drop.originator-tasks-add__button:before, ._drop.profile-photo__change:before, ._drop.semantist-tasks-add__submit:before {
   font-size: 20px;
 }
 
-.button._redact, ._redact.form-select-date__submit, ._redact.modal-take-task__submit, ._redact.profile-photo__change, ._redact.semantist-tasks-add__submit {
+.button._redact, ._redact.form-select-date__submit, ._redact.modal-take-task__submit, ._redact.originator-tasks-add__button, ._redact.profile-photo__change, ._redact.semantist-tasks-add__submit {
   padding: 3px 5px 2px;
 }
 
-.button._redact:before, ._redact.form-select-date__submit:before, ._redact.modal-take-task__submit:before, ._redact.profile-photo__change:before, ._redact.semantist-tasks-add__submit:before {
+.button._redact:before, ._redact.form-select-date__submit:before, ._redact.modal-take-task__submit:before, ._redact.originator-tasks-add__button:before, ._redact.profile-photo__change:before, ._redact.semantist-tasks-add__submit:before {
   font-size: 20px;
 }
 
-.button._send, ._send.form-select-date__submit, ._send.modal-take-task__submit, ._send.profile-photo__change, ._send.semantist-tasks-add__submit {
+.button._send, ._send.form-select-date__submit, ._send.modal-take-task__submit, ._send.originator-tasks-add__button, ._send.profile-photo__change, ._send.semantist-tasks-add__submit {
   padding: 5px 10px 5px 28px;
 }
 
-.button._send:before, ._send.form-select-date__submit:before, ._send.modal-take-task__submit:before, ._send.profile-photo__change:before, ._send.semantist-tasks-add__submit:before {
+.button._send:before, ._send.form-select-date__submit:before, ._send.modal-take-task__submit:before, ._send.originator-tasks-add__button:before, ._send.profile-photo__change:before, ._send.semantist-tasks-add__submit:before {
   font-size: 14px;
   position: absolute;
   left: 10px;
 }
 
-.button._close, ._close.form-select-date__submit, ._close.modal-take-task__submit, ._close.profile-photo__change, ._close.semantist-tasks-add__submit {
+.button._close, ._close.form-select-date__submit, ._close.modal-take-task__submit, ._close.originator-tasks-add__button, ._close.profile-photo__change, ._close.semantist-tasks-add__submit {
   padding: 5px 10px 5px 28px;
 }
 
-.button._close:before, ._close.form-select-date__submit:before, ._close.modal-take-task__submit:before, ._close.profile-photo__change:before, ._close.semantist-tasks-add__submit:before {
+.button._close:before, ._close.form-select-date__submit:before, ._close.modal-take-task__submit:before, ._close.originator-tasks-add__button:before, ._close.profile-photo__change:before, ._close.semantist-tasks-add__submit:before {
   font-size: 14px;
   position: absolute;
   left: 10px;
 }
 
-.button._delete, ._delete.form-select-date__submit, ._delete.modal-take-task__submit, ._delete.profile-photo__change, ._delete.semantist-tasks-add__submit {
+.button._delete, ._delete.form-select-date__submit, ._delete.modal-take-task__submit, ._delete.originator-tasks-add__button, ._delete.profile-photo__change, ._delete.semantist-tasks-add__submit {
   padding: 5px 10px 5px 28px;
 }
 
-.button._delete:before, ._delete.form-select-date__submit:before, ._delete.modal-take-task__submit:before, ._delete.profile-photo__change:before, ._delete.semantist-tasks-add__submit:before {
+.button._delete:before, ._delete.form-select-date__submit:before, ._delete.modal-take-task__submit:before, ._delete.originator-tasks-add__button:before, ._delete.profile-photo__change:before, ._delete.semantist-tasks-add__submit:before {
   font-size: 14px;
   position: absolute;
   left: 10px;
 }
 
-.button._balance, ._balance.form-select-date__submit, ._balance.modal-take-task__submit, ._balance.profile-photo__change, ._balance.semantist-tasks-add__submit {
+.button._balance, ._balance.form-select-date__submit, ._balance.modal-take-task__submit, ._balance.originator-tasks-add__button, ._balance.profile-photo__change, ._balance.semantist-tasks-add__submit {
   line-height: 33px;
   display: block;
   width: 170px;
@@ -3652,33 +3654,33 @@ h1 {
   background-color: #fff;
 }
 
-.button._balance:hover, ._balance.form-select-date__submit:hover, ._balance.modal-take-task__submit:hover, ._balance.profile-photo__change:hover, ._balance.semantist-tasks-add__submit:hover {
+.button._balance:hover, ._balance.form-select-date__submit:hover, ._balance.modal-take-task__submit:hover, ._balance.originator-tasks-add__button:hover, ._balance.profile-photo__change:hover, ._balance.semantist-tasks-add__submit:hover {
   color: #6ab11b;
 }
 
-.button._view, ._view.form-select-date__submit, ._view.modal-take-task__submit, ._view.profile-photo__change, ._view.semantist-tasks-add__submit {
+.button._view, ._view.form-select-date__submit, ._view.modal-take-task__submit, ._view.originator-tasks-add__button, ._view.profile-photo__change, ._view.semantist-tasks-add__submit {
   position: relative;
   padding: 5px 15px 5px 28px;
 }
 
-.button._view:before, ._view.form-select-date__submit:before, ._view.modal-take-task__submit:before, ._view.profile-photo__change:before, ._view.semantist-tasks-add__submit:before {
+.button._view:before, ._view.form-select-date__submit:before, ._view.modal-take-task__submit:before, ._view.originator-tasks-add__button:before, ._view.profile-photo__change:before, ._view.semantist-tasks-add__submit:before {
   font-size: 14px;
   position: absolute;
   left: 10px;
 }
 
-.button._take, ._take.form-select-date__submit, ._take.modal-take-task__submit, ._take.profile-photo__change, ._take.semantist-tasks-add__submit {
+.button._take, ._take.form-select-date__submit, ._take.modal-take-task__submit, ._take.originator-tasks-add__button, ._take.profile-photo__change, ._take.semantist-tasks-add__submit {
   position: relative;
   padding: 5px 15px 5px 28px;
 }
 
-.button._take:before, ._take.form-select-date__submit:before, ._take.modal-take-task__submit:before, ._take.profile-photo__change:before, ._take.semantist-tasks-add__submit:before {
+.button._take:before, ._take.form-select-date__submit:before, ._take.modal-take-task__submit:before, ._take.originator-tasks-add__button:before, ._take.profile-photo__change:before, ._take.semantist-tasks-add__submit:before {
   font-size: 14px;
   position: absolute;
   left: 10px;
 }
 
-.button._link, ._link.form-select-date__submit, ._link.modal-take-task__submit, ._link.profile-photo__change, ._link.semantist-tasks-add__submit {
+.button._link, ._link.form-select-date__submit, ._link.modal-take-task__submit, ._link.originator-tasks-add__button, ._link.profile-photo__change, ._link.semantist-tasks-add__submit {
   line-height: 35px;
   position: relative;
   display: block;
@@ -3688,12 +3690,12 @@ h1 {
   text-align: center;
 }
 
-.button._link:before, ._link.form-select-date__submit:before, ._link.modal-take-task__submit:before, ._link.profile-photo__change:before, ._link.semantist-tasks-add__submit:before {
+.button._link:before, ._link.form-select-date__submit:before, ._link.modal-take-task__submit:before, ._link.originator-tasks-add__button:before, ._link.profile-photo__change:before, ._link.semantist-tasks-add__submit:before {
   font-size: 18px;
   color: #2f9ce5;
 }
 
-.button._link:hover:before, ._link.form-select-date__submit:hover:before, ._link.modal-take-task__submit:hover:before, ._link.profile-photo__change:hover:before, ._link.semantist-tasks-add__submit:hover:before {
+.button._link:hover:before, ._link.form-select-date__submit:hover:before, ._link.modal-take-task__submit:hover:before, ._link.originator-tasks-add__button:hover:before, ._link.profile-photo__change:hover:before, ._link.semantist-tasks-add__submit:hover:before {
   color: #fff;
 }
 
@@ -3773,7 +3775,7 @@ h1 {
           align-items: center;
 }
 
-.rowed-button-title .button, .rowed-button-title .form-select-date__submit, .rowed-button-title .modal-take-task__submit, .rowed-button-title .profile-photo__change, .rowed-button-title .semantist-tasks-add__submit {
+.rowed-button-title .button, .rowed-button-title .form-select-date__submit, .rowed-button-title .modal-take-task__submit, .rowed-button-title .originator-tasks-add__button, .rowed-button-title .profile-photo__change, .rowed-button-title .semantist-tasks-add__submit {
   margin-right: 20px;
 }
 
@@ -5032,6 +5034,10 @@ body {
   height: 245px;
 }
 
+.form-field._h410 {
+  height: 410px;
+}
+
 .form-label {
   font-family: 'Lato-Bold';
   font-size: 14px;
@@ -5067,10 +5073,43 @@ body {
   margin-bottom: 20px;
 }
 
+.select._h40 select {
+  height: 40px;
+}
+
+.form-group {
+  position: relative;
+  width: 100%;
+}
+
 .form-group .form-label {
   display: block;
   margin-bottom: 10px;
   text-transform: uppercase;
+}
+
+.form-group._inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-group__count {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px 10px;
+  color: #414852;
+  background-color: #dbe1e8;
 }
 
 .header {
@@ -5675,6 +5714,150 @@ body {
   max-width: 85%;
 }
 
+.originator-tasks-add {
+  padding-bottom: 50px;
+}
+
+.originator-tasks-add__button {
+  font-size: 18px;
+  width: 160px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.originator-tasks-add-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  padding: 30px;
+  background-color: #dbe1e8;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.originator-tasks-add-top__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.originator-tasks-add-top__column._left {
+  width: 760px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.originator-tasks-add-top__column._right {
+  width: 380px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.originator-tasks-add-top__row._full {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.originator-tasks-add-top__row._half {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.originator-tasks-add-top__row._w140 {
+  width: 140px;
+}
+
+.originator-tasks-add-top__row._w140 .form-label {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.originator-tasks-add-top__row._w140 .form-field {
+  width: 90px;
+  text-align: center;
+}
+
+.originator-tasks-add-top__row._w150 {
+  width: 150px;
+  margin-right: 40px;
+}
+
+.originator-tasks-add-top__row._w150 .form-label {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.originator-tasks-add-top__row._w150 .form-field {
+  width: 60px;
+  text-align: center;
+}
+
+.originator-tasks-add-top__row._w200 {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.originator-tasks-add-top__row._w200 .form-label {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.originator-tasks-add-top__row._w200 .form-field {
+  width: 130px;
+  text-align: center;
+}
+
+.originator-tasks-add-center {
+  margin-bottom: 30px;
+}
+
+.originator-tasks-add-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.originator-tasks-add-bottom__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 49%;
+}
+
+.originator-tasks-add-bottom__column._left {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.originator-tasks-add-bottom__column._right {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .pagination {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6103,7 +6286,7 @@ body {
           justify-content: flex-end;
 }
 
-.tickets-view-correspondence-form__group .button, .tickets-view-correspondence-form__group .form-select-date__submit, .tickets-view-correspondence-form__group .modal-take-task__submit, .tickets-view-correspondence-form__group .profile-photo__change, .tickets-view-correspondence-form__group .semantist-tasks-add__submit {
+.tickets-view-correspondence-form__group .button, .tickets-view-correspondence-form__group .form-select-date__submit, .tickets-view-correspondence-form__group .modal-take-task__submit, .tickets-view-correspondence-form__group .originator-tasks-add__button, .tickets-view-correspondence-form__group .profile-photo__change, .tickets-view-correspondence-form__group .semantist-tasks-add__submit {
   margin-left: 15px;
 }
 

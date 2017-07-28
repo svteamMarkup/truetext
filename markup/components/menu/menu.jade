@@ -55,3 +55,18 @@ mixin menu-semantist-sub(data)
       a(href="#" title="").menu-sub__item В ожидании
       a(href="#" title="").menu-sub__item На доработку
       a(href="#" title="").menu-sub__item Проверенные и не назначенные
+
+mixin menu-originator(data)
+  .menu
+    a(href="#" title="").menu__item._news._active новости
+    a(href="#" title="").menu__item._tasks задания
+    a(href="#" title="").menu__item._profile профиль
+    a(href="#" title="").menu__item._finance Финансы
+
+mixin menu-originator-sub(data)
+  .menu-sub
+    .menu-sub__list
+      a(href="#" title="").menu-sub__item._active Новые задания <span class="green">(15)</span>
+      a(href="#" title="").menu-sub__item В работе (5)
+      a(href="#" title="").menu-sub__item На модерации
+      a(href="#" title="").menu-sub__item Принятые
