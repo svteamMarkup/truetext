@@ -9,3 +9,15 @@ mixin form-select-date()
     input(type="text" value="" class="datepicker-here").form-select-date__field
     input(type="text" value="" class="datepicker-here").form-select-date__field
     button(type="submit").form-select-date__submit OK
+
+mixin form-redact(value)
+  .form-redact.jsFormRedact
+    .form-redact__value.jsFormRedactView=value
+    .form-redact-hidden.jsFormRedactHidden
+      form
+        textarea.form-redact-hidden__field.jsFormRedactField
+        input(type="submit" value="Сохранить").form-redact-hidden__submit._save.jsFormRedactSave
+        input(type="submit" value="Отменить").form-redact-hidden__submit._cancel.jsFormRedactCancel
+    .form-redact-controls.jsFormRedactControl
+      a(href="#" title="Редактировать").form-redact-controls__item._redact.jsFormRedactChange
+      a(href="#" title="Удалить").form-redact-controls__item._delete.jsFormRedactDelete

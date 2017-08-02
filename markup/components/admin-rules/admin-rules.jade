@@ -1,0 +1,29 @@
+mixin admin-rules(data)
+  form(method="" action="").admin-rules
+    h1 Правила
+    .admin-rules__left
+      .admin-rules__block
+        .form-group
+          label.form-label Правила для составителя ТЗ
+          textarea.form-field._textarea._h410
+
+      .admin-rules__block
+        .form-group
+          label.form-label Правила для редакторов
+          textarea.form-field._textarea._h410
+
+      .admin-rules__block
+        .form-group
+          label.form-label Правила для копирайтеров
+          textarea.form-field._textarea._h410
+
+    .admin-rules__right
+      .form-group
+        label.form-label Чек-лист
+      .admin-rules-checklist
+        - for (var i = 0; i < 6; i++)
+          +form-redact('Академическая тошнота документа 7-8%')
+          +form-redact('Прикрепить скриншот уникальности документа (от 95% по адвего)')
+        .admin-rules-checklist-add
+          input(type="text" value="").admin-rules-checklist-add__field
+          input(type="submit" value="Добавить").admin-rules-checklist-add__submit

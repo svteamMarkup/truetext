@@ -1,0 +1,76 @@
+.form-redact {
+  display: flex;
+
+  padding: 5px;
+
+  border-bottom: 1px dashed #ccc;
+  background-color: $white;
+
+  justify-content: space-between;
+  align-items: center;
+  &__value {
+    font-size: 14px;
+    width: 90%;
+    &._hidden {
+      display: none;
+    }
+  }
+}
+
+.form-redact-hidden {
+  display: none;
+
+  width: 100%;
+  &._visible {
+    display: block;
+  }
+  &__field {
+    font-size: 14px;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+
+    resize: none;
+
+    border: 1px solid #ccc;
+  }
+  &__submit {
+    @extend .button;
+    &._save {
+      @extend .button._green;
+    }
+    &._cancel {
+      @extend .button._blue;
+    }
+  }
+}
+
+.form-redact-controls {
+  display: flex;
+
+  width: 25px;
+
+  justify-content: space-between;
+  align-items: center;
+  &._hidden {
+    display: none;
+  }
+  &__item {
+    font-size: 13px;
+
+    text-decoration: none;
+
+    color: $geyser;
+
+    @extend .fa;
+    &._redact {
+      font-size: 12px;
+
+      @extend .fa-pencil;
+    }
+    &._delete {
+      @extend .fa-times;
+    }
+  }
+}

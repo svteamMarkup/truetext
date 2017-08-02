@@ -1,0 +1,65 @@
+.admin-checker {
+  padding-top: 20px;
+  display: block;
+  @extend .wrapper;
+  &__button {
+    font-size: 18px;
+
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+
+    @extend .button;
+    @extend .button._green;
+  }
+  &__bottom {
+    @extend .wrapper;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.admin-checker-top {
+  display: flex;
+
+  padding: 20px;
+
+  background-color: $geyser;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  &__item {
+    margin-right: 20px;
+    .form-field {
+      width: 100px;
+      margin-top: 10px;
+    }
+    &._t1 {
+      width: 120px;
+    }
+    &._t2 {
+      width: 120px;
+    }
+    &._t3 {
+      width: 215px;
+    }
+    &._t4 {
+      width: 215px;
+    }
+    &._t5 {
+      width: 230px;
+    }
+  }
+}
+
+.admin-checker-columns {
+  display: flex;
+
+  margin-top: 30px;
+
+  justify-content: space-between;
+  align-items: stretch;
+  &__item {
+    width: 400px;
+  }
+}

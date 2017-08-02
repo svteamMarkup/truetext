@@ -1,0 +1,67 @@
+mixin admin-checker(data)
+  form.admin-checker
+    h1 Проверяльщик
+
+    .admin-checker-top
+      .admin-checker-top__item._t1
+        label.form-label Принимаемый <br>% уникальности
+        input(type="text" value="").form-field
+
+      .admin-checker-top__item._t2
+        label.form-label Кол-во символов <br> на 1 абзац
+        input(type="text" value="").form-field
+
+      .admin-checker-top__item._t3
+        label.form-label Допустимая погрешность <br> при проверке кол-ва символов
+        input(type="text" value="").form-field
+
+      .admin-checker-top__item._t4
+        label.form-label Максимальное кол-во активных <br> задач копирайтера
+        input(type="text" value="").form-field
+
+      .admin-checker-top__item._t5
+        label.form-label Максимальный срок <br> исполнения задач копирайтером
+        input(type="text" value="").form-field
+
+    .admin-checker-columns
+      .admin-checker-columns__item
+        .form-group
+          .form-label Стоп слова <span class="red"> (нельзя использовать) </span>
+
+        .admin-rules-checklist
+          - for (var i = 0; i < 6; i++)
+            +form-redact('Академическая тошнота документа 7-8%')
+            +form-redact('Прикрепить скриншот уникальности документа (от 95% по адвего)')
+          .admin-rules-checklist-add
+            input(type="text" value="").admin-rules-checklist-add__field
+            input(type="submit" value="Добавить").admin-rules-checklist-add__submit
+          .admin-rules-checklist__count Всего: 530
+
+      .admin-checker-columns__item
+        .form-group
+          .form-label Одноразовые <span class="green"> (можно использовать) </span>
+
+        .admin-rules-checklist
+          - for (var i = 0; i < 6; i++)
+            +form-redact('Академическая тошнота документа 7-8%')
+            +form-redact('Прикрепить скриншот уникальности документа (от 95% по адвего)')
+          .admin-rules-checklist-add
+            input(type="text" value="").admin-rules-checklist-add__field
+            input(type="submit" value="Добавить").admin-rules-checklist-add__submit
+          .admin-rules-checklist__count Всего: 530
+
+      .admin-checker-columns__item
+        .form-group
+          .form-label Стоп слова для ТОП
+
+        .admin-rules-checklist
+          - for (var i = 0; i < 6; i++)
+            +form-redact('Академическая тошнота документа 7-8%')
+            +form-redact('Прикрепить скриншот уникальности документа (от 95% по адвего)')
+          .admin-rules-checklist-add
+            input(type="text" value="").admin-rules-checklist-add__field
+            input(type="submit" value="Добавить").admin-rules-checklist-add__submit
+          .admin-rules-checklist__count Всего: 530
+
+    .admin-checker__bottom
+      input(type="submit" value="Сохранить").admin-checker__button._save

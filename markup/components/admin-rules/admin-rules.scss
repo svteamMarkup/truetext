@@ -1,0 +1,54 @@
+.admin-rules {
+  display: flex;
+
+  padding-top: 20px;
+
+  @extend .wrapper;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  h1 {
+    width: 100%;
+  }
+  &__left {
+    width: 820px;
+  }
+  &__right {
+    width: 400px;
+  }
+  &__block {
+    margin-bottom: 40px;
+  }
+}
+
+.admin-rules-checklist {
+  border: 1px solid #ccc;
+  &__count {
+    padding: 10px;
+
+    background-color: #b3bfcd;
+  }
+}
+
+.admin-rules-checklist-add {
+  display: flex;
+
+  padding: 10px;
+
+  background-color: $geyser;
+
+  justify-content: space-between;
+  align-items: stretch;
+  &__field {
+    min-height: 30px !important;
+    max-height: 30px !important;
+
+    @extend .form-field;
+  }
+  &__submit {
+    margin-left: 5px;
+
+    @extend .button;
+    @extend .button._blue;
+  }
+}

@@ -16,6 +16,16 @@
       }
     }
   }
+  &._admin-other {
+    text-align: right;
+    .menu-sub__list {
+      justify-content: flex-end;
+      &:before {
+        right: 113px;
+        left: inherit;
+      }
+    }
+  }
   &__group {
     display: flex;
 
