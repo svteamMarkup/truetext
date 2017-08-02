@@ -1,0 +1,19 @@
+.form-checkbox {
+  display: flex;
+
+  margin-bottom: 15px;
+
+  justify-content: flex-start;
+  align-items: center;
+  &__field {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-bottom: 0;
+
+    border: 1px solid #ccc;
+  }
+  span {
+    font-size: 14px;
+  }
+}

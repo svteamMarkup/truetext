@@ -1,0 +1,16 @@
+.admin-themes-list {
+  @extend .admin-sites-list;
+  &__all {
+    @extend .admin-sites-list__all;
+  }
+}
+
+.admin-themes-list-header {
+  @extend .admin-sites-list-header;
+  &__search {
+    @extend .admin-sites-list-header__search;
+  }
+  &__add {
+    @extend .admin-sites-list-header__add;
+  }
+}

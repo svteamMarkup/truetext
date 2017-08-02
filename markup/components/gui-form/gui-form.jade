@@ -21,3 +21,8 @@ mixin form-redact(value)
     .form-redact-controls.jsFormRedactControl
       a(href="#" title="Редактировать").form-redact-controls__item._redact.jsFormRedactChange
       a(href="#" title="Удалить").form-redact-controls__item._delete.jsFormRedactDelete
+
+mixin form-checkbox(value)
+  label.form-checkbox
+    input(type="checkbox" value="").form-checkbox__field
+    span=value

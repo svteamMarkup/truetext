@@ -1,0 +1,27 @@
+.admin-themes-add {
+  @extend .wrapper;
+}
+
+.admin-themes-add-block {
+  display: flex;
+
+  padding: 30px;
+
+  @extend .white-plask;
+  justify-content: space-between;
+  align-items: center;
+  &__column {
+    &._first {
+      width: 700px;
+    }
+    &._second {
+      width: 120px;
+    }
+    &._third {
+      width: 150px;
+    }
+    &._last {
+      padding-top: 30px;
+    }
+  }
+}

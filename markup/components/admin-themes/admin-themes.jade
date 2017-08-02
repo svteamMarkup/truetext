@@ -1,0 +1,59 @@
+mixin admin-themes-list(data)
+  .admin-themes-list
+    .admin-themes-list-header
+      h1.admin-themes-list-header__title Тематики
+      .admin-themes-list-header__search
+        +form-search
+      a(href="#" title="").admin-themes-list-header__add Добавить тематику
+
+    table.table
+      thead
+        tr
+          th Тематика
+          th._center Цена
+          th._center Процент уникальности
+          th._center Управление
+      tbody
+        - for (var i = 0; i < 8; i++)
+          tr
+            td 
+              a(href="#" title="") Похудение
+            td._center
+              span.bold 664Р
+            td._center
+              span.bold 60%
+            td._center
+              a(href="#" title="").button._blue._redact
+              a(href="#" title="").button._blue._drop
+
+    .admin-themes-list__all Всего сайтов <span class="bold">10</span>
+    +pagination
+
+mixin admin-themes-add(data)
+  form.admin-themes-add
+    .rowed-button-title
+      a(href="#" title="").button._back
+      h1 Новая тематика
+
+    .admin-themes-add-block
+      .admin-themes-add-block__column._first
+        .form-group
+          label.form-label Название
+          input(type="text" value="").form-field
+
+      .admin-themes-add-block__column._second
+        .form-group
+          label.form-label Цена
+          input(type="text" value="").form-field
+
+      .admin-themes-add-block__column._third
+        .form-group
+          label.form-label % уникальности
+          input(type="text" value="").form-field
+
+      .admin-themes-add-block__column._last
+        a(href="#" title="").button._blue._drop
+
+    .admin-sites-add__bottom
+      a(href="#" title="").admin-sites-add__button._more Добавить еще
+      input(type="submit" value="Сохранить").admin-sites-add__button._save

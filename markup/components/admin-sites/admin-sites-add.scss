@@ -1,0 +1,49 @@
+.admin-sites-add {
+  @extend .wrapper;
+  &__bottom {
+    display: flex;
+
+    padding-top: 30px;
+
+    justify-content: space-between;
+  }
+  &__button {
+    font-size: 18px;
+
+    padding: 15px 20px;
+
+    @extend .button;
+    &._more {
+      @extend .button._blue;
+    }
+    &._save {
+      @extend .button._green;
+    }
+  }
+}
+
+.admin-sites-add-block {
+  display: flex;
+
+  padding: 20px;
+
+  @extend .white-plask;
+  justify-content: space-between;
+  align-items: flex-start;
+  &__column {
+    width: 750px;
+    .form-group {
+      margin-bottom: 20px;
+    }
+    &._first {
+      width: 400px;
+    }
+  }
+}
+
+.admin-sites-add-block-inside {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: stretch;
+}

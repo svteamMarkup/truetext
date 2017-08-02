@@ -1,6 +1,8 @@
 .admin-checker {
-  padding-top: 20px;
   display: block;
+
+  padding-top: 20px;
+
   @extend .wrapper;
   &__button {
     font-size: 18px;
@@ -13,8 +15,9 @@
     @extend .button._green;
   }
   &__bottom {
-    @extend .wrapper;
     display: flex;
+
+    @extend .wrapper;
     justify-content: flex-end;
   }
 }

@@ -1,0 +1,69 @@
+mixin admin-sites-list(data)
+  .admin-sites-list
+    .admin-sites-list-header
+      h1.admin-sites-list-header__title Сайты
+      .admin-sites-list-header__search
+        +form-search
+      a(href="#" title="").admin-sites-list-header__add Добавить сайт
+
+    table.table
+      thead
+        tr
+          th Название сайта
+          th Ссылка
+          th Тематики
+          th._center Управление
+      tbody
+        - for (var i = 0; i < 8; i++)
+          tr
+            td 
+              a(href="#" title="") Sovets
+            td http://sovets.net/
+            td здоровье, кулинария, красота, дом и быт, мода и стиль, хобби, материнство, финансы
+            td._center
+              a(href="#" title="").button._blue._redact
+              a(href="#" title="").button._blue._drop
+
+    .admin-sites-list__all Всего сайтов <span class="bold">10</span>
+    +pagination
+
+mixin admin-sites-add(data)
+  form.admin-sites-add
+    .rowed-button-title
+      a(href="#" title="").button._back
+      h1 Новый сайт
+
+    .admin-sites-add-block
+      .admin-sites-add-block__column._first
+        .form-group
+          label.form-label Название
+          input(type="text" value="").form-field
+
+        .form-group
+          label.form-label Ссылка
+          input(type="text" value="").form-field
+
+      .admin-sites-add-block__column
+        .form-group
+          label.form-label Тематики
+
+        .admin-sites-add-block-inside
+          .admin-sites-add-block-inside__column
+            +form-checkbox('Женские прически')
+            +form-checkbox('Косметическая продукция')
+            +form-checkbox('Косметология')
+            +form-checkbox('Макияж')
+          .admin-sites-add-block-inside__column
+            +form-checkbox('Женские прически')
+            +form-checkbox('Косметическая продукция')
+            +form-checkbox('Косметология')
+            +form-checkbox('Макияж')
+          .admin-sites-add-block-inside__column
+            +form-checkbox('Женские прически')
+            +form-checkbox('Косметическая продукция')
+            +form-checkbox('Косметология')
+            +form-checkbox('Макияж')
+
+    .admin-sites-add__bottom
+      a(href="#" title="").admin-sites-add__button._more Добавить еще
+      input(type="submit" value="Сохранить").admin-sites-add__button._save
