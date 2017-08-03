@@ -1,0 +1,169 @@
+.modal-view-published {
+  box-sizing: border-box;
+  max-width: 885px;
+  &__wrapper {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  &__column {
+    box-sizing: border-box;
+    padding: 45px;
+    &._left {
+      width: 490px;
+    }
+    &._right {
+      width: 400px;
+
+      background-color: #f3f5f9;
+    }
+  }
+  &__meta {
+    position: relative;
+
+    margin-bottom: 15px;
+
+    @extend .subtitle;
+    span {
+      position: absolute;
+      right: 0;
+    }
+  }
+  &__title {
+    font-family: 'Lato-Bold';
+    font-size: 24px;
+    line-height: 27px;
+
+    position: relative;
+
+    color: $black;
+    span {
+      font-family: 'Lato-Regular';
+      font-size: 18px;
+      line-height: 35px;
+
+      position: absolute;
+      top: 10px;
+      right: 0;
+
+      box-sizing: border-box;
+      width: 50px;
+      height: 37px;
+
+      text-align: center;
+
+      color: #ccc;
+      border: 1px solid #ccc;
+    }
+  }
+  &__subtitle {
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+    @extend .subtitle;
+  }
+  &__link {
+    font-size: 14px;
+
+    display: block;
+
+    margin-bottom: 5px;
+
+    color: #555f6e;
+    &:hover {
+      cursor: pointer;
+
+      color: $blue;
+    }
+  }
+  &__keywords-list {
+    font-size: 14px;
+    line-height: 20px;
+
+    overflow-y: scroll;
+
+    width: 100%;
+    height: 300px;
+
+    border: 1px solid #ccc;
+    ul {
+      li {
+        position: relative;
+
+        padding-right: 50px;
+        span {
+          position: absolute;
+          right: 20px;
+        }
+      }
+    }
+  }
+}
+
+.modal-view-published-info {
+  display: flex;
+
+  margin: 15px 0;
+  padding: 15px 0;
+
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+
+  justify-content: flex-start;
+  align-items: center;
+  &__left,
+  &__right {
+    font-size: 14px;
+
+    @extend .subtitle;
+    span {
+      font-family: 'Lato-Bold';
+      font-size: 22px;
+
+      display: block;
+    }
+  }
+  &__left {
+    margin-right: 80px;
+  }
+}
+
+.modal-view-published-user {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid #ccc;
+  &:nth-child(3) {
+    border-bottom: 0;
+  }
+  &._all {
+    margin-top: 20px;
+    padding: 15px;
+
+    border-bottom: 0;
+    background-color: #b3bfcd;
+  }
+  &__type {
+    @extend .subtitle;
+  }
+  &__name {
+    font-family: 'Lato-Bold';
+    font-size: 22px;
+
+    color: $blue;
+  }
+  &__meta {
+    margin-top: 12px;
+    ul {
+      @include nl;
+      li {
+        font-size: 14px;
+
+        margin-bottom: 5px;
+
+        color: #555f6e;
+      }
+    }
+  }
+}

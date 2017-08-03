@@ -1,0 +1,199 @@
+mixin admin-users-list-header(title)
+  .admin-users-list-header
+    h1.admin-users-list-header__title= title
+    .admin-users-list-header__search
+      +form-search
+    .admin-users-list-header__select-col
+      .select
+        select
+          option Активные
+    .admin-users-list-header__date
+      +form-select-date
+
+mixin admin-redactors-list()
+  .admin-users-list
+    +admin-users-list-header('Редактора')
+    .admin-users-list__content
+      table.table._scrollable
+        thead
+          tr
+            th Логин
+            th._center Ставка
+            th._center Статей на проверке
+            th._center Статей проверено
+            th._center Статус
+            th._center Управление
+        tbody
+          - for (var i = 0; i < 5; i++)
+            tr
+              td 
+                a(href="#" title="") Супередактор 
+              td._center
+                span.bold 25 000
+              td._center
+                a(href="#" title="") 2
+              td._center
+                a(href="#" title="") 10
+              td._center
+                span.status._active Активен
+              td._center
+                a(href="#" title="").button._blue._redact
+                a(href="#" title="").button._blue._drop
+          - for (var i = 0; i < 5; i++)
+            tr
+              td 
+                a(href="#" title="") Супередактор 
+              td._center
+                span.bold 25 000
+              td._center
+                a(href="#" title="") 2
+              td._center
+                a(href="#" title="") 10
+              td._center
+                span.status._banned Забанен
+              td._center
+                a(href="#" title="").button._blue._redact
+                a(href="#" title="").button._blue._drop
+          - for (var i = 0; i < 10; i++)
+            tr
+              td 
+                a(href="#" title="") Супередактор 
+              td._center
+                span.bold 25 000
+              td._center
+                a(href="#" title="") 2
+              td._center
+                a(href="#" title="") 10
+              td._center
+                span.status._active Активен
+              td._center
+                a(href="#" title="").button._blue._redact
+                a(href="#" title="").button._blue._drop
+
+      .admin-users-list__all Всего редакторов: <span class="bold">15</span> 
+        | Активные: <span class="bold">90</span>
+        | Забанены: <span class="bold">15</span>
+        | Работающие: <span class="bold">36</span>
+
+mixin admin-publicists-list()
+  .admin-users-list
+    +admin-users-list-header('Публицисты')
+    .admin-users-list__content
+      table.table._scrollable
+        thead
+          tr
+            th Логин
+            th._center Ставка
+            th._center Статей на проверке
+            th._center Статей проверено
+            th._center Статус
+            th._center Управление
+        tbody
+          - for (var i = 0; i < 5; i++)
+            tr
+              td 
+                a(href="#" title="") Публицист 
+              td._center
+                span.bold 25 000
+              td._center
+                a(href="#" title="") 2
+              td._center
+                a(href="#" title="") 10
+              td._center
+                span.status._active Активен
+              td._center
+                a(href="#" title="").button._blue._redact
+                a(href="#" title="").button._blue._drop
+          - for (var i = 0; i < 5; i++)
+            tr
+              td 
+                a(href="#" title="") Публицист
+              td._center
+                span.bold 25 000
+              td._center
+                a(href="#" title="") 2
+              td._center
+                a(href="#" title="") 10
+              td._center
+                span.status._banned Забанен
+              td._center
+                a(href="#" title="").button._blue._redact
+                a(href="#" title="").button._blue._drop
+          - for (var i = 0; i < 10; i++)
+            tr
+              td 
+                a(href="#" title="") Публицист 
+              td._center
+                span.bold 25 000
+              td._center
+                a(href="#" title="") 2
+              td._center
+                a(href="#" title="") 10
+              td._center
+                span.status._active Активен
+              td._center
+                a(href="#" title="").button._blue._redact
+                a(href="#" title="").button._blue._drop
+
+      .admin-users-list__all Всего редакторов: <span class="bold">15</span> 
+        | Активные: <span class="bold">90</span>
+        | Забанены: <span class="bold">15</span>
+        | Работающие: <span class="bold">36</span>
+
+mixin admin-originators-list()
+  .admin-users-list
+    +admin-users-list-header('Составители')
+    .admin-users-list__content
+      table.table._scrollable
+        thead
+          tr
+            th Логин
+            th._center Ставка
+            th._center Заданий составлено
+            th._center Статус
+            th._center Управление
+        tbody
+          - for (var i = 0; i < 5; i++)
+            tr
+              td 
+                a(href="#" title="") Составитель 
+              td._center
+                span.bold 25 000
+              td._center
+                a(href="#" title="") 10
+              td._center
+                span.status._active Активен
+              td._center
+                a(href="#" title="").button._blue._redact
+                a(href="#" title="").button._blue._drop
+          - for (var i = 0; i < 5; i++)
+            tr
+              td 
+                a(href="#" title="") Составитель
+              td._center
+                span.bold 25 000
+              td._center
+                a(href="#" title="") 10
+              td._center
+                span.status._banned Забанен
+              td._center
+                a(href="#" title="").button._blue._redact
+                a(href="#" title="").button._blue._drop
+          - for (var i = 0; i < 10; i++)
+            tr
+              td 
+                a(href="#" title="") Составитель 
+              td._center
+                span.bold 25 000
+              td._center
+                a(href="#" title="") 10
+              td._center
+                span.status._active Активен
+              td._center
+                a(href="#" title="").button._blue._redact
+                a(href="#" title="").button._blue._drop
+
+      .admin-users-list__all Всего редакторов: <span class="bold">15</span> 
+        | Активные: <span class="bold">90</span>
+        | Забанены: <span class="bold">15</span>
+        | Работающие: <span class="bold">36</span>

@@ -316,14 +316,17 @@ h1 {
 .green {
   color: $green;
 }
+
 .blue {
   color: $light-blue;
 }
+
 .bold {
   font-family: 'Lato-Bold';
 
   white-space: nowrap;
 }
+
 .red {
   font-family: 'Lato-Bold';
 
@@ -331,10 +334,39 @@ h1 {
 
   color: red;
 }
+
 .light {
   font-size: 13px;
 
   display: block;
+}
+
+.status {
+  position: relative;
+
+  padding-left: 15px;
+  &:before {
+    left: 0;
+
+    width: 8px;
+    height: 8px;
+
+    content: '';
+
+    border-radius: 50%;
+
+    @include vertical-center;
+  }
+  &._active {
+    &:before {
+      background-color: $green;
+    }
+  }
+  &._banned {
+    &:before {
+      background-color: red;
+    }
+  }
 }
 
 .rowed-button-title {

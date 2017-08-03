@@ -67,61 +67,114 @@ mixin modal-lost(data)
 
     input(type="submit" value="Восстановить").modal-form__submit
 
-mixin modal-take-task()
-  .modal.modal-take-task#modal-take-task
+mixin modal-view-published()
+  .modal.modal-view-published#modal-view-published
     .modal__close
 
-    .modal-take-task__wrapper
-      .modal-take-task__column
-        .modal-take-task__subtitle Основной ключ
-        .modal-take-task__title Акт освидетельствования геодезической разбивочной основы
+    .modal-view-published__wrapper
+      .modal-view-published__column._left
+        .modal-view-published__meta Основной ключ
+          span ID: 3456
 
-        .modal-take-task-info
-          .modal-take-task-info__left объем статьи: 
+        .modal-view-published__title Акт освидетельствования геодезических работ
+          span 3
+
+        .modal-view-published-info
+          .modal-view-published-info__left объем статьи: 
             span.blue 8500 - 9500
-          .modal-take-task-info__right Цена статьи: 
+          .modal-view-published-info__right Цена статьи: 
             span.green 664Р
 
-        .modal-take-task__subtitle для структуры статьи используйте эти сайты
+        .modal-view-published__subtitle для структуры статьи используйте эти сайты
 
-        a(href="#" title="" target="_blank").modal-take-task__link Ссылка на сайт №1
-        a(href="#" title="" target="_blank").modal-take-task__link Ссылка на сайт №2
-        a(href="#" title="" target="_blank").modal-take-task__link Ссылка на сайт №3
-        a(href="#" title="" target="_blank").modal-take-task__link Ссылка на сайт №4
-        a(href="#" title="" target="_blank").modal-take-task__link Ссылка на сайт №5
+        a(href="#" title="" target="_blank").modal-view-published__link Ссылка на сайт №1
+        a(href="#" title="" target="_blank").modal-view-published__link Ссылка на сайт №2
+        a(href="#" title="" target="_blank").modal-view-published__link Ссылка на сайт №3
+        a(href="#" title="" target="_blank").modal-view-published__link Ссылка на сайт №4
+        a(href="#" title="" target="_blank").modal-view-published__link Ссылка на сайт №5
 
-        a(href="#" title="").modal-take-task__submit Взять задание
+        .modal-view-published__subtitle Ключевые слова
 
-      .modal-take-task__column
-        .modal-take-task__subtitle Ключевые слова
-
-        .modal-take-task__keywords-list
+        .modal-view-published__keywords-list
           ul
             li самодельная стойка для дрели
+              span 54
             li держатель для дрели своими руками
+              span 54
             li сверлильная стойка для дрели своими руками
+              span 54
             li как сделать стойку для дрели
+              span 54
             li стойка / стойкий
+              span 54
             li дрель
+              span 54
             li свой
+              span 54
             li рука
+              span 54
             li чертеж
+              span 54
             li чертеж
+              span 54
             li самодельная стойка для дрели
+              span 54
             li держатель для дрели своими руками
+              span 54
             li сверлильная стойка для дрели своими руками
+              span 54
             li как сделать стойку для дрели
+              span 54
             li стойка / стойкий
+              span 54
             li дрель
+              span 54
             li свой
+              span 54
             li рука
+              span 54
             li чертеж
+              span 54
             li чертеж
-            li сверлильная стойка для дрели своими руками
-            li как сделать стойку для дрели
-            li стойка / стойкий
-            li дрель
-            li свой
-            li рука
-            li чертеж
-            li чертеж
+              span 54
+
+      .modal-view-published__column._right
+        .modal-view-published-user
+          .modal-view-published-user__type Копирайтер
+          .modal-view-published-user__name Иван Иванов
+          .modal-view-published-user__meta
+            ul
+              li Начало: 15.05.2017
+              li Закончено: 15.05.2017
+              li Время потрачено: 1д 10ч
+              li Доработки: 5
+
+        .modal-view-published-user
+          .modal-view-published-user__type Редактор
+          .modal-view-published-user__name Иван Иванов
+          .modal-view-published-user__meta
+            ul
+              li Начало: 15.05.2017
+              li Закончено: 15.05.2017
+              li Символов проверено: 8500
+              li Время потрачено: 1д 10ч
+              li Получено: <span class="bold">664Р</span>
+
+        .modal-view-published-user
+          .modal-view-published-user__type Постер
+          .modal-view-published-user__name Иван Иванов
+          .modal-view-published-user__meta
+            ul
+              li Начало: 15.05.2017
+              li Закончено: 15.05.2017
+              li Время потрачено: 1д 10ч
+              li Получено: <span class="bold">664Р</span>
+
+        .modal-view-published-user._all
+          .modal-view-published-user__type Итого
+          .modal-view-published-user__meta
+            ul
+              li Начало: <span class="bold">15.05.2017</span>
+              li Закончено: <span class="bold">15.05.2017</span>
+              li Время потрачено: <span class="bold">1д 10ч</span>
+              li Общая стоимость: <span class="bold">6 664Р</span>
