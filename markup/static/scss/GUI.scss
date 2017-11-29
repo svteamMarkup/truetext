@@ -285,6 +285,11 @@ h1 {
         &._center {
           text-align: center;
         }
+        &._checkbox {
+          .form-checkbox {
+            margin-bottom: 0;
+          }
+        }
       }
     }
   }
@@ -307,6 +312,11 @@ h1 {
         }
         &._center {
           text-align: center;
+        }
+        &._checkbox {
+          .form-checkbox {
+            margin-bottom: 0;
+          }
         }
       }
     }

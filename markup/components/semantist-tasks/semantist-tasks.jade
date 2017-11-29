@@ -20,3 +20,136 @@ mixin semantist-tasks-add(data)
             option Группа
 
         input(type="submit" value="Сохранить").semantist-tasks-add__submit
+
+mixin semantist-tasks-header(title, noSearchButton)
+  - var modiffer = attributes.class || ''
+  .semantist-tasks-header(class="#{modiffer}")
+    h1.semantist-tasks-header__title=title
+    .semantist-tasks-header__search
+      +form-search(noSearchButton)
+    .semantist-tasks-header__select-col
+      .select
+        select
+          option Сайт
+    .semantist-tasks-header__select-col
+      .select
+        select
+          option Тематика
+    .semantist-tasks-header__select-col
+      .select
+        select
+          option Группа
+    .semantist-tasks-header__date
+      +form-select-date
+    a(href="#" title="").semantist-tasks-header__button Добавить
+
+mixin semantist-tasks-bottom(data)
+  .semantist-tasks-bottom
+    a(href="#" title="").semantist-tasks-bottom__button Выбрать все
+    a(href="#" title="").semantist-tasks-bottom__button Удалить выбранные
+    .semantist-tasks-bottom__all Всего:
+      span.bold 105
+
+mixin semantist-tasks-new(data)
+  .semantist-tasks-new
+    .semantist-tasks-new__wrapper
+      +semantist-tasks-header('Новые')
+    .semantist-tasks-new__content
+      table.table
+        thead
+          tr
+            th._checkbox
+              +form-checkbox
+            th id
+            th Ключевик
+            th._center Общее
+            th._center В работе
+            th._center Анкоры
+            th._center Сайт
+            th._center Тематика
+            th._center Создатель
+            th Дата
+            th._center Группа
+            th
+        tbody
+          - for (var i = 0; i < 8; i++)
+            tr
+              td._checkbox
+                +form-checkbox
+              td 
+                span.bold 001465
+              td 
+                a(href="#" title="") Перфоратор
+              td._center
+                span.bold 15
+              td._center
+                span.bold 8
+              td._center
+                span.bold 4
+              td._center
+                span.bold Советс
+              td._center
+                span.bold Финансы
+              td._center
+                span.bold Алексей М
+              td
+                span.bold 15.05.2016
+                span.light 8 ч 53 мин
+              td._center
+                span.bold Без группы
+              td
+                a(href="#" title="").button._blue._drop
+    +semantist-tasks-bottom
+    +pagination
+
+mixin semantist-tasks-checked(data)
+  .semantist-tasks-new
+    .semantist-tasks-new__wrapper
+      +semantist-tasks-header('Проверенные', true)._checked
+    .semantist-tasks-new__content
+      table.table
+        thead
+          tr
+            th._checkbox
+              +form-checkbox
+            th id
+            th Ключевик
+            th._center Общее
+            th._center В работе
+            th._center Анкоры
+            th._center Сайт
+            th._center Тематика
+            th._center Создатель
+            th Дата
+            th._center Группа
+            th
+        tbody
+          - for (var i = 0; i < 8; i++)
+            tr
+              td._checkbox
+                +form-checkbox
+              td 
+                span.bold 001465
+              td 
+                a(href="#" title="") Перфоратор
+              td._center
+                span.bold 15
+              td._center
+                span.bold 8
+              td._center
+                span.bold 4
+              td._center
+                span.bold Советс
+              td._center
+                span.bold Финансы
+              td._center
+                span.bold Алексей М
+              td
+                span.bold 15.05.2016
+                span.light 8 ч 53 мин
+              td._center
+                span.bold Без группы
+              td
+                a(href="#" title="").button._blue._drop
+    +semantist-tasks-bottom
+    +pagination

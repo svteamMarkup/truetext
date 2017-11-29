@@ -1,0 +1,51 @@
+.semantist-profile {
+  display: block;
+
+  padding-top: 25px;
+
+  @extend .wrapper;
+  &__wrapper {
+    display: flex;
+
+    padding: 30px;
+
+    align-items: flex-start;
+    @extend .white-plask;
+    justify-content: space-between;
+  }
+  &__left {
+    width: 100%;
+    max-width: 197px;
+  }
+  &__column {
+    width: 100%;
+    max-width: 425px;
+    padding-top: 40px;
+  }
+  &__submit {
+    float: right;
+
+    width: 170px;
+    height: 48px;
+    margin-top: 20px;
+
+    font-size: 18px;
+
+    @extend .button;
+    @extend .button._green;
+  }
+}
+
+.semantist-profile-photo {
+  width: 100%;
+  &__avatar {
+    width: 100%;
+    margin-bottom: 15px;
+    img {
+      width: 100%;
+    }
+  }
+  &__change {
+    @extend .profile-photo__change;
+  }
+}

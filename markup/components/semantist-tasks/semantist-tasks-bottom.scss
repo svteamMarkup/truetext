@@ -1,0 +1,25 @@
+.semantist-tasks-bottom {
+  display: flex;
+
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+
+  background-color: $geyser;
+
+  align-items: center;
+  justify-content: flex-start;
+  &__button {
+    margin-right: 15px;
+    padding: 5px 15px;
+
+    @extend .button;
+    @extend .button._blue;
+  }
+  &__all {
+    span {
+      padding-left: 5px;
+    }
+  }
+}

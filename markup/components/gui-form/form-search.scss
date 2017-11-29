@@ -3,6 +3,11 @@
 
   justify-content: flex-start;
   align-items: stretch;
+  &._no-button {
+    .form-search__field {
+      width: 100%;
+    } 
+  }
   &__field {
     box-sizing: border-box;
     width: 80%;

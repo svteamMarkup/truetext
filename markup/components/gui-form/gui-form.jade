@@ -1,7 +1,10 @@
-mixin form-search()
-  .form-search
-    input(type="text" value="").form-search__field
-    button(type="submit" value="").form-search__submit
+mixin form-search(noSearchButton)
+  - var modiffer = attributes.class || ''
+  - if (noSearchButton != undefined) modiffer = '_no-button'
+  .form-search(class="#{modiffer}")
+    input(type="text" value="" placeholder="Поиск").form-search__field
+    - if (noSearchButton == undefined)
+      button(type="submit" value="").form-search__submit
 
 mixin form-select-date()
   .form-select-date

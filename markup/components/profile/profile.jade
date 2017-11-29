@@ -65,3 +65,60 @@ mixin profile(data)
               input(type="text" value="").form-field
           .profile-form__row._right
             input(type="submit" value="Изменить пароль").button._blue.profile-form__submit
+
+mixin semantist-profile(data)
+  .semantist-profile
+    h1 Профиль
+    .semantist-profile__wrapper
+      .semantist-profile__left 
+        .semantist-profile-photo
+          .semantist-profile-photo__avatar
+            img(src="%=static=%images/content/default-profile-photo-big.png" alt="")
+          .semantist-profile-photo__change Выбрать фото
+            input(type="file")
+
+      .semantist-profile__column
+        .profile-form
+          .profile-form__row
+            .profile-form__left
+              label.form-label Имя 
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row
+            .profile-form__left
+              label.form-label Фамилия
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row
+            .profile-form__left
+              label.form-label WMR
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row
+            .profile-form__left
+              label.form-label Скайп
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row._right
+
+      .semantist-profile__column
+        form(action="" method="").profile-form
+          .profile-form__row
+            .profile-form__left
+              label.form-label Старый пароль
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row
+            .profile-form__left
+              label.form-label Новый пароль
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row
+            .profile-form__left
+              label.form-label Еще раз
+            .profile-form__right
+              input(type="text" value="").form-field
+          .profile-form__row._right
+            input(type="submit" value="Изменить пароль").button._blue.profile-form__submit
+
+    input(type="submit" value="Сохранить").semantist-profile__submit

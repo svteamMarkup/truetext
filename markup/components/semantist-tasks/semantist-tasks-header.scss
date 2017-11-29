@@ -1,0 +1,31 @@
+.semantist-tasks-header {
+  display: flex;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  align-items: center;
+  justify-content: space-between;
+  &._checked {
+    .semantist-tasks-header__search {
+      max-width: 190px;
+    }
+  }
+  &__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  &__search {
+    width: 100%;
+    max-width: 250px;
+  }
+  &__select-col {
+    width: 100%;
+    max-width: 120px;
+  }
+  &__button {
+    @extend .button;
+    @extend .button._green;
+    @extend .button._add;
+  }
+}
