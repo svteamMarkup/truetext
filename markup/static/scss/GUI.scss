@@ -19,22 +19,22 @@ a {
 }
 
 h1 {
-  font-size: 35px;
-  font-weight: normal;
-
   margin-top: 0;
   margin-bottom: 20px;
 
   color: $mako;
+
+  font-size: 35px;
+  font-weight: normal;
 }
 
 .subtitle {
-  font-family: 'Lato-Bold';
-  font-size: 14px;
-
   text-transform: uppercase;
 
   color: $mako;
+
+  font-family: "Lato-Bold";
+  font-size: 14px;
 }
 
 .white-plask {
@@ -43,8 +43,6 @@ h1 {
 }
 
 .button {
-  font-size: 12px;
-
   position: relative;
 
   display: inline-block;
@@ -55,6 +53,8 @@ h1 {
 
   color: $light-blue;
   border: 0;
+
+  font-size: 12px;
   &._green {
     color: $white;
     background-color: $green;
@@ -85,14 +85,12 @@ h1 {
       position: absolute;
       left: 10px;
 
-      @include vertical-center;
       @extend .fa;
       @extend .fa-comment;
+      @include vertical-center;
     }
   }
   &._back {
-    font-size: 18px;
-
     position: relative;
 
     width: 35px;
@@ -100,10 +98,32 @@ h1 {
 
     border: 1px solid $light-blue;
     background-color: $white;
+
+    font-size: 18px;
     &:before {
-      @include absolute-center;
       @extend .fa;
       @extend .fa-arrow-left;
+      @include absolute-center;
+    }
+    &:hover {
+      color: $white;
+      background-color: $light-blue;
+    }
+  }
+  &._plus {
+    position: relative;
+
+    width: 35px;
+    height: 35px;
+
+    border: 1px solid $light-blue;
+    background-color: $white;
+
+    font-size: 18px;
+    &:before {
+      @extend .fa;
+      @extend .fa-plus;
+      @include absolute-center;
     }
     &:hover {
       color: $white;
@@ -113,10 +133,10 @@ h1 {
   &._answer {
     padding: 5px 10px 5px 28px;
     &:before {
-      font-size: 14px;
-
       position: absolute;
       left: 10px;
+
+      font-size: 14px;
 
       @extend .fa;
       @extend .fa-pencil;
@@ -144,10 +164,10 @@ h1 {
   &._send {
     padding: 5px 10px 5px 28px;
     &:before {
-      font-size: 14px;
-
       position: absolute;
       left: 10px;
+
+      font-size: 14px;
 
       @extend .fa;
       @extend .fa-paper-plane;
@@ -156,10 +176,10 @@ h1 {
   &._close {
     padding: 5px 10px 5px 28px;
     &:before {
-      font-size: 14px;
-
       position: absolute;
       left: 10px;
+
+      font-size: 14px;
 
       @extend .fa;
       @extend .fa-lock;
@@ -168,18 +188,16 @@ h1 {
   &._delete {
     padding: 5px 10px 5px 28px;
     &:before {
-      font-size: 14px;
-
       position: absolute;
       left: 10px;
+
+      font-size: 14px;
 
       @extend .fa;
       @extend .fa-trash-o;
     }
   }
   &._balance {
-    line-height: 33px;
-
     display: block;
 
     width: 170px;
@@ -190,6 +208,8 @@ h1 {
 
     color: $green;
     background-color: $white;
+
+    line-height: 33px;
     &:hover {
       color: $green - #111;
     }
@@ -199,10 +219,10 @@ h1 {
 
     padding: 5px 15px 5px 28px;
     &:before {
-      font-size: 14px;
-
       position: absolute;
       left: 10px;
+
+      font-size: 14px;
 
       @extend .fa;
       @extend .fa-file-text-o;
@@ -213,18 +233,16 @@ h1 {
 
     padding: 5px 15px 5px 28px;
     &:before {
-      font-size: 14px;
-
       position: absolute;
       left: 10px;
+
+      font-size: 14px;
 
       @extend .fa;
       @extend .fa-check;
     }
   }
   &._link {
-    line-height: 35px;
-
     position: relative;
 
     display: block;
@@ -234,10 +252,12 @@ h1 {
     margin: auto;
 
     text-align: center;
-    &:before {
-      font-size: 18px;
 
+    line-height: 35px;
+    &:before {
       color: $light-blue;
+
+      font-size: 18px;
 
       @extend .fa;
       @extend .fa-link;
@@ -249,13 +269,13 @@ h1 {
     }
   }
   &._add {
-    line-height: 30px;
-
     position: relative;
 
     height: 30px;
     padding-right: 10px;
     padding-left: 25px;
+
+    line-height: 30px;
     &:before {
       position: absolute;
       left: 9px;
@@ -265,6 +285,31 @@ h1 {
       @include vertical-center;
     }
   }
+  &._solid-blue {
+    padding: 4px 10px;
+
+    color: $white;
+    background-color: $vlight-blue;
+
+    font-size: 10px;
+    &:hover {
+      background-color: $vlight-blue + #111;
+    }
+  }
+  &._solid-arrow {
+    padding: 4px 10px;
+
+    color: $white;
+    background-color: $vlight-blue;
+
+    font-size: 12px;
+
+    @extend .fa;
+    @extend .fa-arrow-right;
+    &:hover {
+      background-color: $vlight-blue + #111;
+    }
+  }
 }
 
 .table {
@@ -272,13 +317,13 @@ h1 {
   thead {
     tr {
       th {
-        font-size: 14px;
-
         padding: 10px 25px 10px 0;
 
         text-align: left;
 
         background-color: $geyser;
+
+        font-size: 14px;
         &:first-child {
           padding-left: 25px;
         }
@@ -299,11 +344,11 @@ h1 {
     tr {
       border-bottom: 1px solid #e1e6eb;
       td {
-        font-size: 14px;
-
         padding: 10px 25px 10px 0;
 
         vertical-align: top;
+
+        font-size: 14px;
         &:first-child {
           padding-left: 25px;
         }
@@ -332,23 +377,23 @@ h1 {
 }
 
 .bold {
-  font-family: 'Lato-Bold';
-
   white-space: nowrap;
+
+  font-family: "Lato-Bold";
 }
 
 .red {
-  font-family: 'Lato-Bold';
-
   white-space: nowrap;
 
   color: red;
+
+  font-family: "Lato-Bold";
 }
 
 .light {
-  font-size: 13px;
-
   display: block;
+
+  font-size: 13px;
 }
 
 .status {
@@ -361,7 +406,7 @@ h1 {
     width: 8px;
     height: 8px;
 
-    content: '';
+    content: "";
 
     border-radius: 50%;
 
@@ -385,12 +430,15 @@ h1 {
   margin-top: 20px;
   margin-bottom: 30px;
 
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   .button {
     margin-right: 20px;
   }
   h1 {
     margin-bottom: 0;
+    span {
+      color: $blue;
+    }
   }
 }

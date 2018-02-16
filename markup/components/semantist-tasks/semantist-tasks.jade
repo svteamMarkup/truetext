@@ -153,3 +153,132 @@ mixin semantist-tasks-checked(data)
                 a(href="#" title="").button._blue._drop
     +semantist-tasks-bottom
     +pagination
+
+mixin semantist-keys(data)
+  .semantist-keys
+    .semantist-keys__wrapper
+      .rowed-button-title
+        a(href="#" title="").button._back
+        h1 Запрос <span>"прихожая в маленький коридор"</span>
+
+      form(method="" action="").semantist-keys-top
+        .semantist-keys-top__column
+          .form-group
+            label.form-label._light Запрос
+            input(type="text" value="").form-field
+          .semantist-keys-top-triple
+            .form-group
+              label.form-label._light Включить
+            .semantist-keys-top-triple__row
+              .semantist-keys-top-triple__column
+                input(type="text" value="мал прих").form-field
+              .semantist-keys-top-triple__column
+                input(type="text" value="мал прих").form-field
+              .semantist-keys-top-triple__column
+                input(type="text" value="мал прих").form-field
+
+            .semantist-keys-top-triple__row
+              .semantist-keys-top-triple__column
+                input(type="text" value="мал прих").form-field
+              .semantist-keys-top-triple__column
+                input(type="text" value="мал прих").form-field
+              .semantist-keys-top-triple__column
+                input(type="text" value="мал прих").form-field
+              .semantist-keys-top-triple__column._button
+                a(href="#" title="").button._plus
+        .semantist-keys-top__column
+          .semantist-keys-top-triple._nomargin
+            .semantist-keys-top-triple__row
+              .semantist-keys-top-triple__column
+                .form-group
+                  label.form-label._light Сайт
+                  .select._h40
+                    select
+                      option Sovets.net
+
+              .semantist-keys-top-triple__column
+                .form-group
+                  label.form-label._light Тематика
+                  .select._h40
+                    select
+                      option Финансы
+
+              .semantist-keys-top-triple__column
+                .form-group
+                  label.form-label._light Группа
+                  .select._h40
+                    select
+                      option Без группы
+
+          .semantist-keys-top-triple
+            .form-group
+              label.form-label._light Исключить
+            .semantist-keys-top-triple__row
+              .semantist-keys-top-triple__column
+                input(type="text" value="мал прих").form-field
+              .semantist-keys-top-triple__column._button
+                a(href="#" title="").button._plus
+
+
+      .semantist-keys-content
+        .semantist-keys-content__column
+          .form-group
+            label.form-label Общий список (230)
+
+          .semantist-keys-list
+            - for (var i = 0; i < 50; i++)
+              .semantist-keys-list-item
+                .semantist-keys-list-item__title самодельная
+                .semantist-keys-list-item__count 5400
+        
+        .semantist-keys-content__column
+          .form-group
+            label.form-label В работе (230)
+          
+          .semantist-keys-list
+            - for (var i = 0; i < 50; i++)
+              .semantist-keys-list-item
+                .semantist-keys-list-item__title стойка
+                .semantist-keys-list-item__count 5400
+                .semantist-keys-list-item__delete
+                  a(href="#" title="")
+
+        .semantist-keys-content__column
+          .form-group
+            label.form-label Черный список
+          
+          .semantist-keys-list
+            - for (var i = 0; i < 50; i++)
+              .semantist-keys-list-item
+                .semantist-keys-list-item__title стойка
+                .semantist-keys-list-item__count 5400
+                .semantist-keys-list-item__delete
+                  a(href="#" title="")
+
+        .semantist-keys-content__column
+          .form-group
+            label.form-label Анкоры (230)
+            .semantist-keys-content__redact
+              a(href="#" title="").button._solid-blue Редактировать
+              a(href="#" title="").button._solid-arrow
+          
+          .semantist-keys-list
+            - for (var i = 0; i < 20; i++)
+              .semantist-keys-list-item
+                .semantist-keys-list-item__title стойка
+                .semantist-keys-list-item__count 5400
+                .semantist-keys-list-item__delete
+                  a(href="#" title="")
+
+          .semantist-keys-advego
+            .form-group
+              label.form-label Анкоры (230)
+              .semantist-keys-content__redact
+                a(href="#" title="").button._green Получить
+            
+            .semantist-keys-list
+              - for (var i = 0; i < 27; i++)
+                .semantist-keys-list-item
+                  .semantist-keys-list-item__title стойка
+                  .semantist-keys-list-item__count 5400
+                  .semantist-keys-list-item__percent 0,14
